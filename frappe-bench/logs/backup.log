@@ -1,0 +1,924 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250902_180004-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-02 18:00:31.153516
+Config  : ./aagam_eg/private/backups/20250902_180004-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250902_180004-aagam_eg-database.sql.gz         86.7MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250903_120005-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-03 12:00:49.256611
+Config  : ./aagam_eg/private/backups/20250903_120005-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250903_120005-aagam_eg-database.sql.gz         86.7MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250903_180002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-03 18:00:20.818996
+Config  : ./aagam_eg/private/backups/20250903_180002-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250903_180002-aagam_eg-database.sql.gz         86.7MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250904_120003-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-04 12:00:27.370278
+Config  : ./aagam_eg/private/backups/20250904_120003-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250904_120003-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250904_180003-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-04 18:00:23.573102
+Config  : ./aagam_eg/private/backups/20250904_180003-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250904_180003-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250905_120003-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-05 12:00:25.341234
+Config  : ./aagam_eg/private/backups/20250905_120003-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250905_120003-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250905_180003-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-05 18:00:19.774923
+Config  : ./aagam_eg/private/backups/20250905_180003-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250905_180003-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250906_120002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-06 12:00:25.579566
+Config  : ./aagam_eg/private/backups/20250906_120002-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250906_120002-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250908_120002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-08 12:00:25.782720
+Config  : ./aagam_eg/private/backups/20250908_120002-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250908_120002-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250908_180003-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-08 18:00:26.445791
+Config  : ./aagam_eg/private/backups/20250908_180003-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250908_180003-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250909_120004-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-09 12:00:33.234408
+Config  : ./aagam_eg/private/backups/20250909_120004-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250909_120004-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250909_180003-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-09 18:00:24.825099
+Config  : ./aagam_eg/private/backups/20250909_180003-aagam_eg-site_config_backup.json 158.0B
+Database: ./aagam_eg/private/backups/20250909_180003-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250910_120003-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-10 12:00:31.678576
+Config  : ./aagam_eg/private/backups/20250910_120003-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250910_120003-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250910_180002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-10 18:00:18.846902
+Config  : ./aagam_eg/private/backups/20250910_180002-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250910_180002-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250912_120002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-12 12:00:23.064811
+Config  : ./aagam_eg/private/backups/20250912_120002-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250912_120002-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250912_120023-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-12 12:00:25.715753
+Config  : ./alteon_eg/private/backups/20250912_120023-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250912_120023-alteon_eg-database.sql.gz         7.0MiB
+Backup for Site alteon_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250912_180003-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-12 18:00:22.216046
+Config  : ./aagam_eg/private/backups/20250912_180003-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250912_180003-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250912_120023-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250912_120023-alteon_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250912_180022-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-12 18:00:24.915705
+Config  : ./alteon_eg/private/backups/20250912_180022-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250912_180022-alteon_eg-database.sql.gz         7.0MiB
+Backup for Site alteon_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250913_120002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-13 12:00:24.206994
+Config  : ./aagam_eg/private/backups/20250913_120002-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250913_120002-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250912_120023-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250912_180022-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250912_120023-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250912_180022-alteon_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250913_120024-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-13 12:00:27.384908
+Config  : ./alteon_eg/private/backups/20250913_120024-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250913_120024-alteon_eg-database.sql.gz         7.0MiB
+Backup for Site alteon_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250915_120002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-15 12:00:23.001260
+Config  : ./aagam_eg/private/backups/20250915_120002-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250915_120002-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250912_120023-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250912_180022-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250912_120023-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250913_120024-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250913_120024-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250912_180022-alteon_eg-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250915_120023-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-15 12:00:25.686410
+Config  : ./alteon_eg/private/backups/20250915_120023-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250915_120023-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250915_120025-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-15 12:00:28.110805
+Config  : ./blg_eg/private/backups/20250915_120025-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250915_120025-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250915_180003-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-15 18:00:20.633470
+Config  : ./aagam_eg/private/backups/20250915_180003-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250915_180003-aagam_eg-database.sql.gz         86.9MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250915_120023-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250915_120023-alteon_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250915_180020-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-15 18:00:23.068594
+Config  : ./alteon_eg/private/backups/20250915_180020-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250915_180020-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250915_120025-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250915_120025-blg_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250915_180023-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-15 18:00:25.008052
+Config  : ./blg_eg/private/backups/20250915_180023-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250915_180023-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250916_120002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-16 12:00:22.132944
+Config  : ./aagam_eg/private/backups/20250916_120002-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250916_120002-aagam_eg-database.sql.gz         86.9MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250915_180020-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250915_120023-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250915_180020-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250915_120023-alteon_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250916_120022-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-16 12:00:24.889524
+Config  : ./alteon_eg/private/backups/20250916_120022-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250916_120022-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250915_120025-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250915_180023-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250915_120025-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250915_180023-blg_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250916_120024-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-16 12:00:27.219501
+Config  : ./blg_eg/private/backups/20250916_120024-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250916_120024-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250916_180002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-16 18:00:19.413520
+Config  : ./aagam_eg/private/backups/20250916_180002-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250916_180002-aagam_eg-database.sql.gz         86.9MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250915_180020-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250916_120022-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250915_120023-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250915_180020-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250915_120023-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250916_120022-alteon_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250916_180019-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-16 18:00:21.727083
+Config  : ./alteon_eg/private/backups/20250916_180019-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250916_180019-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250915_120025-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250915_180023-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250916_120024-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250915_120025-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250916_120024-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250915_180023-blg_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250916_180021-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-16 18:00:23.872376
+Config  : ./blg_eg/private/backups/20250916_180021-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250916_180021-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250917_120002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-17 12:00:19.373184
+Config  : ./aagam_eg/private/backups/20250917_120002-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250917_120002-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250915_180020-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250916_120022-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250915_180020-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250916_120022-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250916_180019-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250916_180019-alteon_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250917_120019-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-17 12:00:21.792932
+Config  : ./alteon_eg/private/backups/20250917_120019-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250917_120019-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250915_180023-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250916_120024-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250916_120024-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250916_180021-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250915_180023-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250916_180021-blg_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250917_120021-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-17 12:00:23.964629
+Config  : ./blg_eg/private/backups/20250917_120021-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250917_120021-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250917_180003-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-17 18:00:41.804342
+Config  : ./aagam_eg/private/backups/20250917_180003-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250917_180003-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250917_120019-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250916_120022-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250916_120022-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250917_120019-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250916_180019-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250916_180019-alteon_eg-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250917_180041-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-17 18:00:47.033637
+Config  : ./alteon_eg/private/backups/20250917_180041-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250917_180041-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250916_120024-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250917_120021-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250916_120024-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250917_120021-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250916_180021-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250916_180021-blg_eg-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250917_180047-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-17 18:00:51.088386
+Config  : ./blg_eg/private/backups/20250917_180047-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250917_180047-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250917_180051-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-17 18:01:00.331207
+Config  : ./step_eg/private/backups/20250917_180051-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250917_180051-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250918_120001-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-18 12:00:20.296501
+Config  : ./aagam_eg/private/backups/20250918_120001-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250918_120001-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250917_120019-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250917_120019-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250917_180041-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250917_180041-alteon_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250918_120020-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-18 12:00:23.316908
+Config  : ./alteon_eg/private/backups/20250918_120020-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250918_120020-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250917_180047-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250917_180047-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250917_120021-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250917_120021-blg_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250918_120023-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-18 12:00:26.180084
+Config  : ./blg_eg/private/backups/20250918_120023-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250918_120023-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250917_180051-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250917_180051-step_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250918_120026-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-18 12:00:32.753674
+Config  : ./step_eg/private/backups/20250918_120026-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250918_120026-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250918_180003-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-18 18:00:23.105658
+Config  : ./aagam_eg/private/backups/20250918_180003-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250918_180003-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250917_120019-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250918_120020-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250918_120020-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250917_120019-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250917_180041-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250917_180041-alteon_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250918_180023-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-18 18:00:25.952803
+Config  : ./alteon_eg/private/backups/20250918_180023-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250918_180023-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250917_180047-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250918_120023-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250917_180047-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250917_120021-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250918_120023-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250917_120021-blg_eg-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250918_180025-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-18 18:00:28.212693
+Config  : ./blg_eg/private/backups/20250918_180025-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250918_180025-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250917_180051-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250918_120026-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250918_120026-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250917_180051-step_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250918_180028-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-18 18:00:33.517547
+Config  : ./step_eg/private/backups/20250918_180028-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250918_180028-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250919_120002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-19 12:00:20.337877
+Config  : ./aagam_eg/private/backups/20250919_120002-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250919_120002-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250918_180023-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250918_120020-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250918_120020-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250918_180023-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250917_180041-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250917_180041-alteon_eg-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250919_120020-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-19 12:00:22.937621
+Config  : ./alteon_eg/private/backups/20250919_120020-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250919_120020-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250918_180025-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250917_180047-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250918_120023-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250917_180047-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250918_120023-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250918_180025-blg_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250919_120022-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-19 12:00:25.093475
+Config  : ./blg_eg/private/backups/20250919_120022-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250919_120022-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250917_180051-step_eg-site_config_backup.json is older than 24 hours
+File ./step_eg/private/backups/20250918_120026-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250918_120026-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250917_180051-step_eg-database.sql.gz is older than 24 hours
+File ./step_eg/private/backups/20250918_180028-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250918_180028-step_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250919_120025-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-19 12:00:30.638053
+Config  : ./step_eg/private/backups/20250919_120025-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250919_120025-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250919_180002-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-19 18:00:19.473109
+Config  : ./aagam_eg/private/backups/20250919_180002-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250919_180002-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250918_180023-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250918_120020-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250918_120020-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250918_180023-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250919_120020-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250919_120020-alteon_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250919_180019-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-19 18:00:22.202077
+Config  : ./alteon_eg/private/backups/20250919_180019-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250919_180019-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250918_180025-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250918_120023-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250919_120022-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250919_120022-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250918_120023-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250918_180025-blg_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250919_180022-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-19 18:00:24.516144
+Config  : ./blg_eg/private/backups/20250919_180022-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250919_180022-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250918_120026-step_eg-database.sql.gz is older than 24 hours
+File ./step_eg/private/backups/20250919_120025-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250918_120026-step_eg-site_config_backup.json is older than 24 hours
+File ./step_eg/private/backups/20250918_180028-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250919_120025-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250918_180028-step_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250919_180024-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-19 18:00:29.668595
+Config  : ./step_eg/private/backups/20250919_180024-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250919_180024-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_25efdaafe3c2c0f4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _25efdaafe3c2c0f4 | /usr/bin/gzip >> ./Sanket/private/backups/20250922_120002-Sanket-database.sql.gz
+
+Backup Summary for Sanket at 2025-09-22 12:00:04.058442
+Config  : ./Sanket/private/backups/20250922_120002-Sanket-site_config_backup.json 94.0B
+Database: ./Sanket/private/backups/20250922_120002-Sanket-database.sql.gz         776.1KiB
+Backup for Site Sanket has been successfully completed
+File ./aagam_eg/private/backups/20250919_180002-aagam_eg-database.sql.gz is older than 24 hours
+File ./aagam_eg/private/backups/20250918_180003-aagam_eg-site_config_backup.json is older than 24 hours
+File ./aagam_eg/private/backups/20250918_180003-aagam_eg-database.sql.gz is older than 24 hours
+File ./aagam_eg/private/backups/20250919_120002-aagam_eg-site_config_backup.json is older than 24 hours
+File ./aagam_eg/private/backups/20250919_180002-aagam_eg-site_config_backup.json is older than 24 hours
+File ./aagam_eg/private/backups/20250919_120002-aagam_eg-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250922_120004-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-22 12:00:21.284521
+Config  : ./aagam_eg/private/backups/20250922_120004-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250922_120004-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250919_180019-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250918_180023-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250918_180023-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250919_120020-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250919_120020-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250919_180019-alteon_eg-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250922_120021-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-22 12:00:24.590265
+Config  : ./alteon_eg/private/backups/20250922_120021-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250922_120021-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250918_180025-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250919_180022-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250919_120022-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250919_120022-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250919_180022-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250918_180025-blg_eg-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250922_120024-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-22 12:00:26.865026
+Config  : ./blg_eg/private/backups/20250922_120024-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250922_120024-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250919_180024-step_eg-database.sql.gz is older than 24 hours
+File ./step_eg/private/backups/20250919_180024-step_eg-site_config_backup.json is older than 24 hours
+File ./step_eg/private/backups/20250919_120025-step_eg-database.sql.gz is older than 24 hours
+File ./step_eg/private/backups/20250918_180028-step_eg-database.sql.gz is older than 24 hours
+File ./step_eg/private/backups/20250919_120025-step_eg-site_config_backup.json is older than 24 hours
+File ./step_eg/private/backups/20250918_180028-step_eg-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250922_120026-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-22 12:00:33.591741
+Config  : ./step_eg/private/backups/20250922_120026-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250922_120026-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_25efdaafe3c2c0f4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _25efdaafe3c2c0f4 | /usr/bin/gzip >> ./Sanket/private/backups/20250922_180004-Sanket-database.sql.gz
+
+Backup Summary for Sanket at 2025-09-22 18:00:12.582155
+Config  : ./Sanket/private/backups/20250922_180004-Sanket-site_config_backup.json 161.0B
+Database: ./Sanket/private/backups/20250922_180004-Sanket-database.sql.gz         850.0KiB
+Backup for Site Sanket has been successfully completed
+File ./aagam_eg/private/backups/20250922_120004-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250922_120004-aagam_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250922_180012-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-22 18:01:03.661956
+Config  : ./aagam_eg/private/backups/20250922_180012-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250922_180012-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250922_120021-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250922_120021-alteon_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250922_180103-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-22 18:01:11.248224
+Config  : ./alteon_eg/private/backups/20250922_180103-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250922_180103-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250922_120024-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250922_120024-blg_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250922_180111-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-22 18:01:17.135450
+Config  : ./blg_eg/private/backups/20250922_180111-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250922_180111-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250922_120026-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250922_120026-step_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250922_180117-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-22 18:01:29.781650
+Config  : ./step_eg/private/backups/20250922_180117-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250922_180117-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_25efdaafe3c2c0f4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _25efdaafe3c2c0f4 | /usr/bin/gzip >> ./Sanket/private/backups/20250923_120002-Sanket-database.sql.gz
+
+Backup Summary for Sanket at 2025-09-23 12:00:04.882464
+Config  : ./Sanket/private/backups/20250923_120002-Sanket-site_config_backup.json 161.0B
+Database: ./Sanket/private/backups/20250923_120002-Sanket-database.sql.gz         856.5KiB
+Backup for Site Sanket has been successfully completed
+File ./aagam_eg/private/backups/20250922_120004-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250922_180012-aagam_eg-database.sql.gz is recent
+File ./aagam_eg/private/backups/20250922_180012-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250922_120004-aagam_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250923_120004-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-23 12:00:23.973174
+Config  : ./aagam_eg/private/backups/20250923_120004-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250923_120004-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250922_120021-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250922_120021-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250922_180103-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250922_180103-alteon_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250923_120024-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-23 12:00:26.998367
+Config  : ./alteon_eg/private/backups/20250923_120024-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250923_120024-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250922_120024-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250922_180111-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250922_120024-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250922_180111-blg_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250923_120027-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-23 12:00:29.581128
+Config  : ./blg_eg/private/backups/20250923_120027-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250923_120027-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250922_120026-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250922_180117-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250922_180117-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250922_120026-step_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250923_120029-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-23 12:00:35.514516
+Config  : ./step_eg/private/backups/20250923_120029-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250923_120029-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_25efdaafe3c2c0f4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _25efdaafe3c2c0f4 | /usr/bin/gzip >> ./Sanket/private/backups/20250923_180003-Sanket-database.sql.gz
+
+Backup Summary for Sanket at 2025-09-23 18:00:07.437747
+Config  : ./Sanket/private/backups/20250923_180003-Sanket-site_config_backup.json 161.0B
+Database: ./Sanket/private/backups/20250923_180003-Sanket-database.sql.gz         858.8KiB
+Backup for Site Sanket has been successfully completed
+File ./aagam_eg/private/backups/20250923_120004-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250922_120004-aagam_eg-site_config_backup.json is older than 24 hours
+File ./aagam_eg/private/backups/20250922_180012-aagam_eg-database.sql.gz is recent
+File ./aagam_eg/private/backups/20250922_180012-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250923_120004-aagam_eg-database.sql.gz is recent
+File ./aagam_eg/private/backups/20250922_120004-aagam_eg-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250923_180007-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-23 18:00:36.521086
+Config  : ./aagam_eg/private/backups/20250923_180007-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250923_180007-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250923_120024-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250922_120021-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250922_120021-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250923_120024-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250922_180103-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250922_180103-alteon_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250923_180036-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-23 18:00:40.031810
+Config  : ./alteon_eg/private/backups/20250923_180036-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250923_180036-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250923_120027-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250923_120027-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250922_180111-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250922_180111-blg_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250923_180040-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-23 18:00:44.914679
+Config  : ./blg_eg/private/backups/20250923_180040-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250923_180040-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250922_120026-step_eg-site_config_backup.json is older than 24 hours
+File ./step_eg/private/backups/20250923_120029-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250922_180117-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250922_180117-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250922_120026-step_eg-database.sql.gz is older than 24 hours
+File ./step_eg/private/backups/20250923_120029-step_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250923_180045-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-23 18:00:57.927781
+Config  : ./step_eg/private/backups/20250923_180045-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250923_180045-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_25efdaafe3c2c0f4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _25efdaafe3c2c0f4 | /usr/bin/gzip >> ./Sanket/private/backups/20250924_120002-Sanket-database.sql.gz
+
+Backup Summary for Sanket at 2025-09-24 12:00:04.651391
+Config  : ./Sanket/private/backups/20250924_120002-Sanket-site_config_backup.json 161.0B
+Database: ./Sanket/private/backups/20250924_120002-Sanket-database.sql.gz         863.5KiB
+Backup for Site Sanket has been successfully completed
+File ./aagam_eg/private/backups/20250923_180007-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250923_120004-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250922_180012-aagam_eg-database.sql.gz is older than 24 hours
+File ./aagam_eg/private/backups/20250922_180012-aagam_eg-site_config_backup.json is older than 24 hours
+File ./aagam_eg/private/backups/20250923_120004-aagam_eg-database.sql.gz is recent
+File ./aagam_eg/private/backups/20250923_180007-aagam_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250924_120004-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-24 12:00:20.868732
+Config  : ./aagam_eg/private/backups/20250924_120004-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250924_120004-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250923_120024-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250923_180036-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250923_120024-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250922_180103-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250922_180103-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250923_180036-alteon_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250924_120020-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-24 12:00:23.226421
+Config  : ./alteon_eg/private/backups/20250924_120020-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250924_120020-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250923_120027-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250923_180040-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250923_180040-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250923_120027-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250922_180111-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250922_180111-blg_eg-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250924_120023-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-24 12:00:25.408641
+Config  : ./blg_eg/private/backups/20250924_120023-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250924_120023-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250923_120029-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250922_180117-step_eg-database.sql.gz is older than 24 hours
+File ./step_eg/private/backups/20250922_180117-step_eg-site_config_backup.json is older than 24 hours
+File ./step_eg/private/backups/20250923_120029-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250923_180045-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250923_180045-step_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250924_120025-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-24 12:00:30.639015
+Config  : ./step_eg/private/backups/20250924_120025-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250924_120025-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_25efdaafe3c2c0f4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _25efdaafe3c2c0f4 | /usr/bin/gzip >> ./Sanket/private/backups/20250924_180002-Sanket-database.sql.gz
+
+Backup Summary for Sanket at 2025-09-24 18:00:04.171854
+Config  : ./Sanket/private/backups/20250924_180002-Sanket-site_config_backup.json 161.0B
+Database: ./Sanket/private/backups/20250924_180002-Sanket-database.sql.gz         870.3KiB
+Backup for Site Sanket has been successfully completed
+File ./aagam_eg/private/backups/20250923_180007-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250923_120004-aagam_eg-site_config_backup.json is older than 24 hours
+File ./aagam_eg/private/backups/20250924_120004-aagam_eg-database.sql.gz is recent
+File ./aagam_eg/private/backups/20250924_120004-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250923_120004-aagam_eg-database.sql.gz is older than 24 hours
+File ./aagam_eg/private/backups/20250923_180007-aagam_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250924_180004-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-24 18:00:24.315303
+Config  : ./aagam_eg/private/backups/20250924_180004-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250924_180004-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250924_120020-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250923_120024-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250923_180036-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250923_120024-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250924_120020-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250923_180036-alteon_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250924_180024-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-24 18:00:27.533526
+Config  : ./alteon_eg/private/backups/20250924_180024-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250924_180024-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250923_120027-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250924_120023-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250923_180040-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250923_180040-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250923_120027-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250924_120023-blg_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250924_180027-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-24 18:00:30.369429
+Config  : ./blg_eg/private/backups/20250924_180027-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250924_180027-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250924_120025-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250923_120029-step_eg-site_config_backup.json is older than 24 hours
+File ./step_eg/private/backups/20250924_120025-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250923_120029-step_eg-database.sql.gz is older than 24 hours
+File ./step_eg/private/backups/20250923_180045-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250923_180045-step_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250924_180030-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-24 18:00:36.311194
+Config  : ./step_eg/private/backups/20250924_180030-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250924_180030-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_25efdaafe3c2c0f4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _25efdaafe3c2c0f4 | /usr/bin/gzip >> ./Sanket/private/backups/20250925_120002-Sanket-database.sql.gz
+
+Backup Summary for Sanket at 2025-09-25 12:00:05.195049
+Config  : ./Sanket/private/backups/20250925_120002-Sanket-site_config_backup.json 161.0B
+Database: ./Sanket/private/backups/20250925_120002-Sanket-database.sql.gz         875.0KiB
+Backup for Site Sanket has been successfully completed
+File ./aagam_eg/private/backups/20250923_180007-aagam_eg-site_config_backup.json is older than 24 hours
+File ./aagam_eg/private/backups/20250924_120004-aagam_eg-database.sql.gz is recent
+File ./aagam_eg/private/backups/20250924_120004-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250924_180004-aagam_eg-database.sql.gz is recent
+File ./aagam_eg/private/backups/20250923_180007-aagam_eg-database.sql.gz is older than 24 hours
+File ./aagam_eg/private/backups/20250924_180004-aagam_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250925_120005-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-25 12:00:25.591858
+Config  : ./aagam_eg/private/backups/20250925_120005-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250925_120005-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250924_180024-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250924_120020-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250923_180036-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250924_180024-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250924_120020-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250923_180036-alteon_eg-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250925_120025-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-25 12:00:28.702139
+Config  : ./alteon_eg/private/backups/20250925_120025-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250925_120025-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250924_180027-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250924_180027-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250924_120023-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250923_180040-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250923_180040-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250924_120023-blg_eg-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250925_120028-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-25 12:00:31.567958
+Config  : ./blg_eg/private/backups/20250925_120028-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250925_120028-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250924_120025-step_eg-database.sql.gz is older than 24 hours
+File ./step_eg/private/backups/20250924_180030-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250924_120025-step_eg-site_config_backup.json is older than 24 hours
+File ./step_eg/private/backups/20250923_180045-step_eg-site_config_backup.json is older than 24 hours
+File ./step_eg/private/backups/20250923_180045-step_eg-database.sql.gz is older than 24 hours
+File ./step_eg/private/backups/20250924_180030-step_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250925_120031-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-25 12:00:37.978113
+Config  : ./step_eg/private/backups/20250925_120031-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250925_120031-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_3d740f9f389c1f3b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3d740f9f389c1f3b | /usr/bin/gzip >> ./technavious_eg/private/backups/20250925_120037-technavious_eg-database.sql.gz
+
+Backup Summary for technavious_eg at 2025-09-25 12:00:41.633026
+Config  : ./technavious_eg/private/backups/20250925_120037-technavious_eg-site_config_backup.json 158.0B
+Database: ./technavious_eg/private/backups/20250925_120037-technavious_eg-database.sql.gz         11.4MiB
+Backup for Site technavious_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_25efdaafe3c2c0f4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _25efdaafe3c2c0f4 | /usr/bin/gzip >> ./Sanket/private/backups/20250925_180003-Sanket-database.sql.gz
+
+Backup Summary for Sanket at 2025-09-25 18:00:07.476735
+Config  : ./Sanket/private/backups/20250925_180003-Sanket-site_config_backup.json 161.0B
+Database: ./Sanket/private/backups/20250925_180003-Sanket-database.sql.gz         879.6KiB
+Backup for Site Sanket has been successfully completed
+File ./aagam_eg/private/backups/20250924_120004-aagam_eg-database.sql.gz is older than 24 hours
+File ./aagam_eg/private/backups/20250925_120005-aagam_eg-database.sql.gz is recent
+File ./aagam_eg/private/backups/20250925_120005-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250924_120004-aagam_eg-site_config_backup.json is older than 24 hours
+File ./aagam_eg/private/backups/20250924_180004-aagam_eg-database.sql.gz is recent
+File ./aagam_eg/private/backups/20250924_180004-aagam_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250925_180007-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-25 18:00:32.853036
+Config  : ./aagam_eg/private/backups/20250925_180007-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250925_180007-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250925_120025-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250924_180024-alteon_eg-database.sql.gz is older than 24 hours
+File ./alteon_eg/private/backups/20250924_180024-alteon_eg-site_config_backup.json is older than 24 hours
+File ./alteon_eg/private/backups/20250925_120025-alteon_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250925_180032-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-25 18:00:37.166223
+Config  : ./alteon_eg/private/backups/20250925_180032-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250925_180032-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250924_180027-blg_eg-database.sql.gz is older than 24 hours
+File ./blg_eg/private/backups/20250924_180027-blg_eg-site_config_backup.json is older than 24 hours
+File ./blg_eg/private/backups/20250925_120028-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250925_120028-blg_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250925_180037-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-25 18:00:40.467899
+Config  : ./blg_eg/private/backups/20250925_180037-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250925_180037-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250924_180030-step_eg-database.sql.gz is older than 24 hours
+File ./step_eg/private/backups/20250925_120031-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250925_120031-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250924_180030-step_eg-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250925_180040-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-25 18:00:47.225961
+Config  : ./step_eg/private/backups/20250925_180040-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250925_180040-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+File ./technavious_eg/private/backups/20250925_120037-technavious_eg-database.sql.gz is recent
+File ./technavious_eg/private/backups/20250925_120037-technavious_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_3d740f9f389c1f3b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3d740f9f389c1f3b | /usr/bin/gzip >> ./technavious_eg/private/backups/20250925_180047-technavious_eg-database.sql.gz
+
+Backup Summary for technavious_eg at 2025-09-25 18:00:51.373496
+Config  : ./technavious_eg/private/backups/20250925_180047-technavious_eg-site_config_backup.json 158.0B
+Database: ./technavious_eg/private/backups/20250925_180047-technavious_eg-database.sql.gz         11.4MiB
+Backup for Site technavious_eg has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_25efdaafe3c2c0f4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _25efdaafe3c2c0f4 | /usr/bin/gzip >> ./Sanket/private/backups/20250926_120003-Sanket-database.sql.gz
+
+Backup Summary for Sanket at 2025-09-26 12:00:07.261343
+Config  : ./Sanket/private/backups/20250926_120003-Sanket-site_config_backup.json 161.0B
+Database: ./Sanket/private/backups/20250926_120003-Sanket-database.sql.gz         879.6KiB
+Backup for Site Sanket has been successfully completed
+File ./aagam_eg/private/backups/20250925_180007-aagam_eg-database.sql.gz is recent
+File ./aagam_eg/private/backups/20250925_120005-aagam_eg-database.sql.gz is recent
+File ./aagam_eg/private/backups/20250925_180007-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250925_120005-aagam_eg-site_config_backup.json is recent
+File ./aagam_eg/private/backups/20250924_180004-aagam_eg-database.sql.gz is older than 24 hours
+File ./aagam_eg/private/backups/20250924_180004-aagam_eg-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_cac5b734f9eb31a9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _cac5b734f9eb31a9 | /usr/bin/gzip >> ./aagam_eg/private/backups/20250926_120007-aagam_eg-database.sql.gz
+
+Backup Summary for aagam_eg at 2025-09-26 12:00:27.715734
+Config  : ./aagam_eg/private/backups/20250926_120007-aagam_eg-site_config_backup.json 225.0B
+Database: ./aagam_eg/private/backups/20250926_120007-aagam_eg-database.sql.gz         86.8MiB
+Backup for Site aagam_eg has been successfully completed
+File ./alteon_eg/private/backups/20250925_120025-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250925_180032-alteon_eg-site_config_backup.json is recent
+File ./alteon_eg/private/backups/20250925_120025-alteon_eg-database.sql.gz is recent
+File ./alteon_eg/private/backups/20250925_180032-alteon_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a991b0bd093d3fd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a991b0bd093d3fd | /usr/bin/gzip >> ./alteon_eg/private/backups/20250926_120027-alteon_eg-database.sql.gz
+
+Backup Summary for alteon_eg at 2025-09-26 12:00:31.329771
+Config  : ./alteon_eg/private/backups/20250926_120027-alteon_eg-site_config_backup.json 158.0B
+Database: ./alteon_eg/private/backups/20250926_120027-alteon_eg-database.sql.gz         7.1MiB
+Backup for Site alteon_eg has been successfully completed
+File ./blg_eg/private/backups/20250925_180037-blg_eg-site_config_backup.json is recent
+File ./blg_eg/private/backups/20250925_180037-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250925_120028-blg_eg-database.sql.gz is recent
+File ./blg_eg/private/backups/20250925_120028-blg_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_f8d2643fe06511ba --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f8d2643fe06511ba | /usr/bin/gzip >> ./blg_eg/private/backups/20250926_120031-blg_eg-database.sql.gz
+
+Backup Summary for blg_eg at 2025-09-26 12:00:34.777662
+Config  : ./blg_eg/private/backups/20250926_120031-blg_eg-site_config_backup.json 94.0B
+Database: ./blg_eg/private/backups/20250926_120031-blg_eg-database.sql.gz         6.6MiB
+Backup for Site blg_eg has been successfully completed
+File ./step_eg/private/backups/20250925_180040-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250925_120031-step_eg-site_config_backup.json is recent
+File ./step_eg/private/backups/20250925_180040-step_eg-database.sql.gz is recent
+File ./step_eg/private/backups/20250925_120031-step_eg-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_72f940c883f02eb4 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _72f940c883f02eb4 | /usr/bin/gzip >> ./step_eg/private/backups/20250926_120034-step_eg-database.sql.gz
+
+Backup Summary for step_eg at 2025-09-26 12:00:41.477015
+Config  : ./step_eg/private/backups/20250926_120034-step_eg-site_config_backup.json 94.0B
+Database: ./step_eg/private/backups/20250926_120034-step_eg-database.sql.gz         26.8MiB
+Backup for Site step_eg has been successfully completed
+File ./technavious_eg/private/backups/20250925_120037-technavious_eg-database.sql.gz is recent
+File ./technavious_eg/private/backups/20250925_180047-technavious_eg-database.sql.gz is recent
+File ./technavious_eg/private/backups/20250925_120037-technavious_eg-site_config_backup.json is recent
+File ./technavious_eg/private/backups/20250925_180047-technavious_eg-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_3d740f9f389c1f3b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3d740f9f389c1f3b | /usr/bin/gzip >> ./technavious_eg/private/backups/20250926_120041-technavious_eg-database.sql.gz
+
+Backup Summary for technavious_eg at 2025-09-26 12:00:45.998148
+Config  : ./technavious_eg/private/backups/20250926_120041-technavious_eg-site_config_backup.json 158.0B
+Database: ./technavious_eg/private/backups/20250926_120041-technavious_eg-database.sql.gz         11.4MiB
+Backup for Site technavious_eg has been successfully completed

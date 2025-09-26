@@ -1,0 +1,658 @@
+2025-09-02 16:37:31,458 DEBUG cd frappe-bench && python3 -m venv env
+2025-09-02 16:37:34,638 DEBUG cd frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-09-02 16:37:36,043 DEBUG cd frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-09-02 16:37:52,420 LOG Getting frappe
+2025-09-02 16:37:52,420 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-09-02 16:38:11,870 LOG Installing frappe
+2025-09-02 16:38:11,872 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/frappe 
+2025-09-02 16:38:42,825 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/frappe && yarn install --check-files
+2025-09-02 16:38:50,110 DEBUG cd frappe-bench && bench build
+2025-09-02 16:38:50,243 INFO /usr/local/bin/bench build
+2025-09-02 16:39:28,042 LOG setting up backups
+2025-09-02 16:39:28,054 LOG backups were set up
+2025-09-02 16:39:28,054 INFO Bench frappe-bench initialized
+2025-09-02 16:39:35,043 INFO /usr/local/bin/bench get-app --branch version-15 erpnext
+2025-09-02 16:39:50,478 LOG Getting erpnext
+2025-09-02 16:39:50,478 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-09-02 16:40:10,255 LOG Installing erpnext
+2025-09-02 16:40:10,255 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/erpnext 
+2025-09-02 16:40:17,652 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/erpnext && yarn install --check-files
+2025-09-02 16:40:18,039 DEBUG bench build --app erpnext
+2025-09-02 16:40:18,154 INFO /usr/local/bin/bench build --app erpnext
+2025-09-02 16:40:43,727 INFO /usr/local/bin/bench get-app hrms
+2025-09-02 16:40:59,260 LOG Getting hrms
+2025-09-02 16:40:59,260 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2025-09-02 16:41:29,608 LOG Installing hrms
+2025-09-02 16:41:29,608 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/hrms 
+2025-09-02 16:41:31,172 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/hrms && yarn install --check-files
+2025-09-02 16:41:49,025 DEBUG bench build --app hrms
+2025-09-02 16:41:49,168 INFO /usr/local/bin/bench build --app hrms
+2025-09-02 16:42:21,622 INFO /usr/local/bin/bench get-app --branch version-15 https://github.com/resilient-tech/india-compliance.git
+2025-09-02 16:42:21,629 LOG Getting india-compliance
+2025-09-02 16:42:21,629 DEBUG cd ./apps && git clone https://github.com/resilient-tech/india-compliance.git --branch version-15 --depth 1 --origin upstream
+2025-09-02 16:42:38,509 LOG Installing india_compliance
+2025-09-02 16:42:38,510 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/india_compliance 
+2025-09-02 16:42:41,326 DEBUG bench build --app india_compliance
+2025-09-02 16:42:41,444 INFO /usr/local/bin/bench build --app india_compliance
+2025-09-02 16:43:35,706 INFO /usr/local/bin/bench get-app https://github.com/Vivdeveloper/Biometric-Sync.git
+2025-09-02 16:43:35,714 LOG Getting Biometric-Sync
+2025-09-02 16:43:35,714 DEBUG cd ./apps && git clone https://github.com/Vivdeveloper/Biometric-Sync.git  --depth 1 --origin upstream
+2025-09-02 16:43:51,730 LOG Installing exacuer_sync_biometrics
+2025-09-02 16:43:51,731 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/exacuer_sync_biometrics 
+2025-09-02 16:43:53,368 DEBUG bench build --app exacuer_sync_biometrics
+2025-09-02 16:43:53,485 INFO /usr/local/bin/bench build --app exacuer_sync_biometrics
+2025-09-02 16:44:15,482 INFO /usr/local/bin/bench get-app https://github.com/Saurabh-Shelke/tech.git
+2025-09-02 16:44:15,489 LOG Getting tech
+2025-09-02 16:44:15,489 DEBUG cd ./apps && git clone https://github.com/Saurabh-Shelke/tech.git  --depth 1 --origin upstream
+2025-09-02 16:44:31,392 LOG Installing tech
+2025-09-02 16:44:31,393 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/tech 
+2025-09-02 16:44:33,038 DEBUG bench build --app tech
+2025-09-02 16:44:33,157 INFO /usr/local/bin/bench build --app tech
+2025-09-02 16:44:49,764 INFO /usr/local/bin/bench get-app https://github.com/Vivdeveloper/Aagam-ERPNext.git
+2025-09-02 16:44:49,772 LOG Getting Aagam-ERPNext
+2025-09-02 16:44:49,772 DEBUG cd ./apps && git clone https://github.com/Vivdeveloper/Aagam-ERPNext.git  --depth 1 --origin upstream
+2025-09-02 16:45:05,821 LOG Installing aagam_customization
+2025-09-02 16:45:05,822 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/aagam_customization 
+2025-09-02 16:45:07,447 DEBUG bench build --app aagam_customization
+2025-09-02 16:45:07,584 INFO /usr/local/bin/bench build --app aagam_customization
+2025-09-02 16:47:16,463 INFO /usr/local/bin/bench new-site aagam_eg
+2025-09-02 16:48:35,851 INFO /usr/local/bin/bench --site aagam_eg install-app erpnext
+2025-09-02 16:50:03,402 INFO /usr/local/bin/bench --site aagam_eg install-app hrms
+2025-09-02 16:50:50,250 INFO /usr/local/bin/bench --site aagam_eg install-app aagam_customization
+2025-09-02 16:51:07,927 INFO /usr/local/bin/bench --site aagam_eg install-app exacuer_sync_biometrics
+2025-09-02 16:51:26,328 INFO /usr/local/bin/bench --site aagam_eg install-app india_compliance
+2025-09-02 16:51:56,128 INFO /usr/local/bin/bench --site aagam_eg install-app tech
+2025-09-02 16:56:50,392 INFO /usr/local/bin/bench --site aagam_eg restore /home/sanket-dilip-katkade/Downloads/20250902_004513-aagam_erpnext_com-database.sql.gz
+2025-09-02 16:58:43,850 INFO /usr/local/bin/bench use aagam_eg
+2025-09-02 16:58:48,784 INFO /usr/local/bin/bench start
+2025-09-02 16:58:49,151 INFO /usr/local/bin/bench serve --port 8000
+2025-09-02 16:58:49,179 INFO /usr/local/bin/bench watch
+2025-09-02 16:58:49,194 INFO /usr/local/bin/bench worker
+2025-09-02 16:58:49,253 INFO /usr/local/bin/bench schedule
+2025-09-02 17:02:17,563 INFO /usr/local/bin/bench set-config -g server_script_enabled 1
+2025-09-02 17:02:48,316 INFO /usr/local/bin/bench set-config -g developer_mode true
+2025-09-02 17:02:52,096 INFO /usr/local/bin/bench start
+2025-09-02 17:02:52,434 INFO /usr/local/bin/bench worker
+2025-09-02 17:02:52,444 INFO /usr/local/bin/bench watch
+2025-09-02 17:02:52,479 INFO /usr/local/bin/bench serve --port 8000
+2025-09-02 17:02:52,492 INFO /usr/local/bin/bench schedule
+2025-09-02 18:00:02,316 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-03 10:12:01,512 INFO /usr/local/bin/bench start
+2025-09-03 10:12:01,880 INFO /usr/local/bin/bench serve --port 8000
+2025-09-03 10:12:01,903 INFO /usr/local/bin/bench schedule
+2025-09-03 10:12:01,938 INFO /usr/local/bin/bench worker
+2025-09-03 10:12:01,952 INFO /usr/local/bin/bench watch
+2025-09-03 12:00:02,788 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-03 18:00:01,468 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-04 10:00:30,633 INFO /usr/local/bin/bench start
+2025-09-04 10:00:31,006 INFO /usr/local/bin/bench watch
+2025-09-04 10:00:31,039 INFO /usr/local/bin/bench worker
+2025-09-04 10:00:31,042 INFO /usr/local/bin/bench serve --port 8000
+2025-09-04 10:00:31,056 INFO /usr/local/bin/bench schedule
+2025-09-04 11:17:15,137 INFO /usr/local/bin/bench set-config -g developer_mode 1
+2025-09-04 11:17:19,210 INFO /usr/local/bin/bench start
+2025-09-04 11:17:19,537 INFO /usr/local/bin/bench serve --port 8000
+2025-09-04 11:17:19,555 INFO /usr/local/bin/bench worker
+2025-09-04 11:17:19,600 INFO /usr/local/bin/bench schedule
+2025-09-04 11:17:19,673 INFO /usr/local/bin/bench watch
+2025-09-04 12:00:02,199 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-04 18:00:01,952 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-05 10:59:50,012 INFO /usr/local/bin/bench start
+2025-09-05 11:01:05,693 INFO /usr/local/bin/bench start
+2025-09-05 11:01:06,097 INFO /usr/local/bin/bench worker
+2025-09-05 11:01:06,171 INFO /usr/local/bin/bench schedule
+2025-09-05 11:01:06,441 INFO /usr/local/bin/bench watch
+2025-09-05 11:01:06,505 INFO /usr/local/bin/bench serve --port 8000
+2025-09-05 12:00:02,314 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-05 12:31:54,644 INFO /usr/local/bin/bench start
+2025-09-05 12:31:55,001 INFO /usr/local/bin/bench schedule
+2025-09-05 12:31:55,194 INFO /usr/local/bin/bench serve --port 8000
+2025-09-05 12:31:55,228 INFO /usr/local/bin/bench worker
+2025-09-05 12:31:55,310 INFO /usr/local/bin/bench watch
+2025-09-05 18:00:02,192 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-06 11:16:38,495 INFO /usr/local/bin/bench start
+2025-09-06 11:16:38,912 INFO /usr/local/bin/bench worker
+2025-09-06 11:16:38,943 INFO /usr/local/bin/bench schedule
+2025-09-06 11:16:38,947 INFO /usr/local/bin/bench serve --port 8000
+2025-09-06 11:16:38,951 INFO /usr/local/bin/bench watch
+2025-09-06 12:00:01,606 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-08 10:39:58,314 INFO /usr/local/bin/bench start
+2025-09-08 10:39:58,718 INFO /usr/local/bin/bench watch
+2025-09-08 10:39:58,722 INFO /usr/local/bin/bench schedule
+2025-09-08 10:39:58,741 INFO /usr/local/bin/bench worker
+2025-09-08 10:39:58,744 INFO /usr/local/bin/bench serve --port 8000
+2025-09-08 12:00:01,498 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-08 18:00:02,080 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-09 12:00:01,571 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-09 12:10:20,314 INFO /usr/local/bin/bench start
+2025-09-09 12:10:20,573 INFO /usr/local/bin/bench schedule
+2025-09-09 12:10:20,578 INFO /usr/local/bin/bench serve --port 8000
+2025-09-09 12:10:20,593 INFO /usr/local/bin/bench worker
+2025-09-09 12:10:20,629 INFO /usr/local/bin/bench watch
+2025-09-09 17:08:04,623 INFO /usr/local/bin/bench start
+2025-09-09 17:08:04,897 INFO /usr/local/bin/bench serve --port 8000
+2025-09-09 17:08:04,917 INFO /usr/local/bin/bench worker
+2025-09-09 17:08:04,929 INFO /usr/local/bin/bench watch
+2025-09-09 17:08:04,953 INFO /usr/local/bin/bench schedule
+2025-09-09 18:00:02,357 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-09 18:02:10,721 INFO /usr/local/bin/bench start
+2025-09-09 18:02:10,975 INFO /usr/local/bin/bench schedule
+2025-09-09 18:02:10,995 INFO /usr/local/bin/bench watch
+2025-09-09 18:02:10,996 INFO /usr/local/bin/bench worker
+2025-09-09 18:02:11,092 INFO /usr/local/bin/bench serve --port 8000
+2025-09-10 10:26:26,760 INFO /usr/local/bin/bench start
+2025-09-10 10:26:27,092 INFO /usr/local/bin/bench schedule
+2025-09-10 10:26:27,098 INFO /usr/local/bin/bench worker
+2025-09-10 10:26:27,147 INFO /usr/local/bin/bench serve --port 8000
+2025-09-10 10:26:27,195 INFO /usr/local/bin/bench watch
+2025-09-10 12:00:02,010 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-10 18:00:01,464 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-12 10:42:38,899 INFO /usr/local/bin/bench new-site alteon_eg
+2025-09-12 10:43:45,571 INFO /usr/local/bin/bench --site alteon_eg install-app erpnext
+2025-09-12 10:49:33,561 INFO /usr/local/bin/bench new-app daybook
+2025-09-12 10:49:33,566 LOG creating new app daybook
+2025-09-12 10:50:20,726 LOG Installing daybook
+2025-09-12 10:50:20,727 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/daybook 
+2025-09-12 10:50:22,249 DEBUG bench build --app daybook
+2025-09-12 10:50:22,333 INFO /usr/local/bin/bench build --app daybook
+2025-09-12 10:50:34,735 INFO /usr/local/bin/bench --site alteon_eg install-app daybook
+2025-09-12 10:52:13,412 INFO /usr/local/bin/bench get-app https://github.com/Saurabh-Shelke/Account-.git
+2025-09-12 10:52:13,418 LOG Getting Account-
+2025-09-12 10:52:13,418 DEBUG cd ./apps && git clone https://github.com/Saurabh-Shelke/Account-.git  --depth 1 --origin upstream
+2025-09-12 10:52:14,785 LOG Installing account_repo
+2025-09-12 10:52:14,785 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/account_repo 
+2025-09-12 10:52:15,937 DEBUG bench build --app account_repo
+2025-09-12 10:52:16,021 INFO /usr/local/bin/bench build --app account_repo
+2025-09-12 10:56:44,876 INFO /usr/local/bin/bench --site alteon_eg install-app hrms
+2025-09-12 10:57:54,607 INFO /usr/local/bin/bench --site alteon_eg install-app india_compliance
+2025-09-12 10:59:02,579 INFO /usr/local/bin/bench --site alteon_eg install-app account_repo
+2025-09-12 11:02:07,856 INFO /usr/local/bin/bench --site alteon_eg restore /home/sanket-dilip-katkade/Downloads/20250911_234529-alteonsenergy_frappe_cloud-database.sql.gz
+2025-09-12 11:04:08,671 INFO /usr/local/bin/bench use alteon_eg
+2025-09-12 11:04:15,484 INFO /usr/local/bin/bench start
+2025-09-12 11:04:15,834 INFO /usr/local/bin/bench watch
+2025-09-12 11:04:15,840 INFO /usr/local/bin/bench worker
+2025-09-12 11:04:15,917 INFO /usr/local/bin/bench schedule
+2025-09-12 11:04:16,068 INFO /usr/local/bin/bench serve --port 8000
+2025-09-12 11:05:29,664 INFO /usr/local/bin/bench --site alteon_eg install-app daybook
+2025-09-12 11:05:49,911 INFO /usr/local/bin/bench start
+2025-09-12 11:05:50,233 INFO /usr/local/bin/bench worker
+2025-09-12 11:05:50,262 INFO /usr/local/bin/bench schedule
+2025-09-12 11:05:50,323 INFO /usr/local/bin/bench watch
+2025-09-12 11:05:50,367 INFO /usr/local/bin/bench serve --port 8000
+2025-09-12 12:00:02,230 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-12 18:00:01,882 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-13 11:14:05,401 INFO /usr/local/bin/bench start
+2025-09-13 11:14:05,753 INFO /usr/local/bin/bench serve --port 8000
+2025-09-13 11:14:05,787 INFO /usr/local/bin/bench worker
+2025-09-13 11:14:05,790 INFO /usr/local/bin/bench watch
+2025-09-13 11:14:05,792 INFO /usr/local/bin/bench schedule
+2025-09-13 12:00:01,604 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-15 10:53:31,542 INFO /usr/local/bin/bench start
+2025-09-15 10:53:31,855 INFO /usr/local/bin/bench schedule
+2025-09-15 10:53:31,859 INFO /usr/local/bin/bench worker
+2025-09-15 10:53:31,891 INFO /usr/local/bin/bench serve --port 8000
+2025-09-15 10:53:31,899 INFO /usr/local/bin/bench watch
+2025-09-15 11:11:03,525 INFO /usr/local/bin/bench new-site blg_eg
+2025-09-15 11:12:11,311 INFO /usr/local/bin/bench new-app blg_report
+2025-09-15 11:12:11,321 LOG creating new app blg_report
+2025-09-15 11:13:10,273 LOG Installing blg_report
+2025-09-15 11:13:10,277 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/blg_report 
+2025-09-15 11:13:12,457 DEBUG bench build --app blg_report
+2025-09-15 11:13:12,598 INFO /usr/local/bin/bench build --app blg_report
+2025-09-15 11:13:39,640 INFO /usr/local/bin/bench --site blg_eg install-app erpnext
+2025-09-15 11:16:06,837 INFO /usr/local/bin/bench --site blg_eg install-app india_compliance
+2025-09-15 11:17:41,365 INFO /usr/local/bin/bench --site blg_eg restore /home/sanket-dilip-katkade/Downloads/20250915_013026-blgfoods_frappe_cloud-database.sql.gz
+2025-09-15 11:17:59,846 INFO /usr/local/bin/bench --site blg_eg restore /home/sanket-dilip-katkade/Downloads/20250915_013026-blgfoods_frappe_cloud-database.sql.gz
+2025-09-15 11:18:39,533 INFO /usr/local/bin/bench use blg_eg
+2025-09-15 11:19:06,050 INFO /usr/local/bin/bench --site blg_eg install-app blg_report
+2025-09-15 11:19:14,503 INFO /usr/local/bin/bench start
+2025-09-15 11:19:14,767 INFO /usr/local/bin/bench schedule
+2025-09-15 11:19:14,779 INFO /usr/local/bin/bench watch
+2025-09-15 11:19:14,914 INFO /usr/local/bin/bench serve --port 8000
+2025-09-15 11:19:15,037 INFO /usr/local/bin/bench worker
+2025-09-15 12:00:01,353 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-15 12:51:13,873 INFO /usr/local/bin/bench use alteon_eg
+2025-09-15 12:51:37,882 INFO /usr/local/bin/bench start
+2025-09-15 12:51:38,205 INFO /usr/local/bin/bench serve --port 8000
+2025-09-15 12:51:38,205 INFO /usr/local/bin/bench worker
+2025-09-15 12:51:38,267 INFO /usr/local/bin/bench schedule
+2025-09-15 12:51:38,289 INFO /usr/local/bin/bench watch
+2025-09-15 14:25:47,784 INFO /usr/local/bin/bench use aagam_eg
+2025-09-15 14:25:52,048 INFO /usr/local/bin/bench start
+2025-09-15 14:25:52,578 INFO /usr/local/bin/bench schedule
+2025-09-15 14:25:52,648 INFO /usr/local/bin/bench watch
+2025-09-15 14:25:52,730 INFO /usr/local/bin/bench serve --port 8000
+2025-09-15 14:25:52,751 INFO /usr/local/bin/bench worker
+2025-09-15 14:27:05,847 INFO /usr/local/bin/bench use aagam_eg
+2025-09-15 14:27:11,013 INFO /usr/local/bin/bench start
+2025-09-15 14:27:11,557 INFO /usr/local/bin/bench schedule
+2025-09-15 14:27:11,557 INFO /usr/local/bin/bench serve --port 8000
+2025-09-15 14:27:11,613 INFO /usr/local/bin/bench watch
+2025-09-15 14:27:11,771 INFO /usr/local/bin/bench worker
+2025-09-15 14:31:33,893 INFO /usr/local/bin/bench use aagam_eg
+2025-09-15 14:31:39,536 INFO /usr/local/bin/bench start
+2025-09-15 14:31:39,857 INFO /usr/local/bin/bench schedule
+2025-09-15 14:31:39,886 INFO /usr/local/bin/bench serve --port 8000
+2025-09-15 14:31:39,917 INFO /usr/local/bin/bench watch
+2025-09-15 14:31:39,942 INFO /usr/local/bin/bench worker
+2025-09-15 14:32:59,898 INFO /usr/local/bin/bench use alteon_eg
+2025-09-15 14:33:04,037 INFO /usr/local/bin/bench start
+2025-09-15 14:33:04,346 INFO /usr/local/bin/bench schedule
+2025-09-15 14:33:04,400 INFO /usr/local/bin/bench watch
+2025-09-15 14:33:04,468 INFO /usr/local/bin/bench worker
+2025-09-15 14:33:04,488 INFO /usr/local/bin/bench serve --port 8000
+2025-09-15 18:00:02,142 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-16 12:00:01,577 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-16 16:40:37,671 INFO /usr/local/bin/bench use alteon_eg
+2025-09-16 16:40:42,303 INFO /usr/local/bin/bench start
+2025-09-16 16:40:42,632 INFO /usr/local/bin/bench schedule
+2025-09-16 16:40:42,659 INFO /usr/local/bin/bench worker
+2025-09-16 16:40:42,662 INFO /usr/local/bin/bench serve --port 8000
+2025-09-16 16:40:42,663 INFO /usr/local/bin/bench watch
+2025-09-16 18:00:01,312 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-16 18:26:00,930 INFO /usr/local/bin/bench use alteon_eg
+2025-09-16 18:26:06,164 INFO /usr/local/bin/bench start
+2025-09-16 18:26:06,399 INFO /usr/local/bin/bench watch
+2025-09-16 18:26:06,407 INFO /usr/local/bin/bench worker
+2025-09-16 18:26:06,415 INFO /usr/local/bin/bench schedule
+2025-09-16 18:26:06,474 INFO /usr/local/bin/bench serve --port 8000
+2025-09-16 18:27:09,572 INFO /usr/local/bin/bench use aagam_eg
+2025-09-16 18:27:12,044 INFO /usr/local/bin/bench start
+2025-09-16 18:27:12,259 INFO /usr/local/bin/bench serve --port 8000
+2025-09-16 18:27:12,275 INFO /usr/local/bin/bench schedule
+2025-09-16 18:27:12,316 INFO /usr/local/bin/bench worker
+2025-09-16 18:27:12,333 INFO /usr/local/bin/bench watch
+2025-09-17 11:26:01,521 INFO /usr/local/bin/bench use aagam_eg
+2025-09-17 11:26:04,567 INFO /usr/local/bin/bench start
+2025-09-17 11:26:04,805 INFO /usr/local/bin/bench watch
+2025-09-17 11:26:04,814 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 11:26:04,844 INFO /usr/local/bin/bench schedule
+2025-09-17 11:26:04,873 INFO /usr/local/bin/bench worker
+2025-09-17 12:00:01,387 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-17 12:06:39,685 INFO /usr/local/bin/bench new-site step_eg
+2025-09-17 12:07:59,277 INFO /usr/local/bin/bench --site step_eg install-app erpnext
+2025-09-17 12:09:20,822 INFO /usr/local/bin/bench --site step_eg install-app india_compliance
+2025-09-17 12:10:00,659 INFO /usr/local/bin/bench get-app https://github.com/Vivdeveloper/indiamart_exacuer_app.git
+2025-09-17 12:10:00,676 LOG Getting indiamart_exacuer_app
+2025-09-17 12:10:00,676 DEBUG cd ./apps && git clone https://github.com/Vivdeveloper/indiamart_exacuer_app.git  --depth 1 --origin upstream
+2025-09-17 12:10:17,455 LOG Installing indiamart_erpnext_integration
+2025-09-17 12:10:17,455 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/indiamart_erpnext_integration 
+2025-09-17 12:10:23,051 DEBUG bench build --app indiamart_erpnext_integration
+2025-09-17 12:10:23,190 INFO /usr/local/bin/bench build --app indiamart_erpnext_integration
+2025-09-17 12:11:10,248 INFO /usr/local/bin/bench --site step_eg install-app indiamart_erpnext_integration
+2025-09-17 12:12:16,313 INFO /usr/local/bin/bench --site step_eg restore /home/sanket-dilip-katkade/Downloads/20250916_123106-stepearly_frappe_cloud-database.sql.gz
+2025-09-17 12:12:57,263 INFO /usr/local/bin/bench use
+2025-09-17 12:13:04,101 INFO /usr/local/bin/bench use step_eg
+2025-09-17 12:13:10,803 INFO /usr/local/bin/bench start
+2025-09-17 12:13:11,091 INFO /usr/local/bin/bench worker
+2025-09-17 12:13:11,110 INFO /usr/local/bin/bench schedule
+2025-09-17 12:13:11,215 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 12:13:11,283 INFO /usr/local/bin/bench watch
+2025-09-17 14:44:34,532 INFO /usr/local/bin/bench use step_eg
+2025-09-17 14:44:45,390 INFO /usr/local/bin/bench new-app stepperly
+2025-09-17 14:44:45,396 LOG creating new app stepperly
+2025-09-17 14:45:32,234 LOG Installing stepperly
+2025-09-17 14:45:32,237 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/stepperly 
+2025-09-17 14:45:34,050 DEBUG bench build --app stepperly
+2025-09-17 14:45:34,165 INFO /usr/local/bin/bench build --app stepperly
+2025-09-17 14:46:07,830 INFO /usr/local/bin/bench --site step_eg install-app stepperly
+2025-09-17 14:48:02,371 INFO /usr/local/bin/bench --site step_eg install-app stepperly
+2025-09-17 14:56:54,618 INFO /usr/local/bin/bench start
+2025-09-17 14:56:55,145 INFO /usr/local/bin/bench worker
+2025-09-17 14:56:55,165 INFO /usr/local/bin/bench schedule
+2025-09-17 14:56:55,221 INFO /usr/local/bin/bench watch
+2025-09-17 14:56:55,330 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 16:19:30,481 INFO /usr/local/bin/bench --site step_eg migrate
+2025-09-17 16:19:35,346 INFO /usr/local/bin/bench start
+2025-09-17 16:19:35,683 INFO /usr/local/bin/bench schedule
+2025-09-17 16:19:35,705 INFO /usr/local/bin/bench worker
+2025-09-17 16:19:35,717 INFO /usr/local/bin/bench watch
+2025-09-17 16:19:35,781 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 16:22:03,819 INFO /usr/local/bin/bench --site step_eg execute import frappe; frappe.db.set_value('DocField', {'parent':'Quotation','fieldname':'price_list'}, 'reqd', 0); frappe.db.commit(); print('done')
+2025-09-17 16:23:04,161 INFO /usr/local/bin/bench --site step_eg console
+2025-09-17 16:23:32,773 INFO /usr/local/bin/bench --site step_eg execute frappe.get_value('DocField', {'parent':'Quotation','fieldname':'price_list'}, ['name','reqd','hidden','depends_on'])
+2025-09-17 16:24:29,862 INFO /usr/local/bin/bench --site step_eg console
+2025-09-17 16:24:53,797 INFO /usr/local/bin/bench --site step_eg execute frappe.clear_cache(doctype='Quotation')
+2025-09-17 16:25:40,084 INFO /usr/local/bin/bench --site step_eg console
+2025-09-17 16:28:14,013 INFO /usr/local/bin/bench start
+2025-09-17 16:28:14,342 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 16:28:14,377 INFO /usr/local/bin/bench worker
+2025-09-17 16:28:14,418 INFO /usr/local/bin/bench watch
+2025-09-17 16:28:14,427 INFO /usr/local/bin/bench schedule
+2025-09-17 16:49:26,341 INFO /usr/local/bin/bench --site step_eg migrate
+2025-09-17 16:49:43,875 INFO /usr/local/bin/bench start
+2025-09-17 16:49:44,141 INFO /usr/local/bin/bench worker
+2025-09-17 16:49:44,142 INFO /usr/local/bin/bench schedule
+2025-09-17 16:49:44,147 INFO /usr/local/bin/bench watch
+2025-09-17 16:49:44,172 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 16:50:10,187 INFO /usr/local/bin/bench start
+2025-09-17 16:50:10,446 INFO /usr/local/bin/bench schedule
+2025-09-17 16:50:10,446 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 16:50:10,470 INFO /usr/local/bin/bench watch
+2025-09-17 16:50:10,496 INFO /usr/local/bin/bench worker
+2025-09-17 16:55:44,466 INFO /usr/local/bin/bench --site step_eg console
+2025-09-17 16:57:52,439 INFO /usr/local/bin/bench start
+2025-09-17 16:57:52,695 INFO /usr/local/bin/bench schedule
+2025-09-17 16:57:52,701 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 16:57:52,725 INFO /usr/local/bin/bench worker
+2025-09-17 16:57:52,775 INFO /usr/local/bin/bench watch
+2025-09-17 17:55:34,382 INFO /usr/local/bin/bench use step_eg
+2025-09-17 17:55:38,905 INFO /usr/local/bin/bench start
+2025-09-17 17:55:39,531 INFO /usr/local/bin/bench watch
+2025-09-17 17:55:39,564 INFO /usr/local/bin/bench schedule
+2025-09-17 17:55:39,633 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 17:55:39,637 INFO /usr/local/bin/bench worker
+2025-09-17 17:58:57,064 INFO /usr/local/bin/bench start
+2025-09-17 17:58:57,610 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 17:58:57,627 INFO /usr/local/bin/bench worker
+2025-09-17 17:58:57,700 INFO /usr/local/bin/bench schedule
+2025-09-17 17:58:57,810 INFO /usr/local/bin/bench watch
+2025-09-17 18:00:02,111 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-17 18:03:27,671 INFO /usr/local/bin/bench --site step_eg migrate
+2025-09-17 18:03:43,928 INFO /usr/local/bin/bench start
+2025-09-17 18:03:44,461 INFO /usr/local/bin/bench worker
+2025-09-17 18:03:44,473 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 18:03:44,502 INFO /usr/local/bin/bench schedule
+2025-09-17 18:03:44,603 INFO /usr/local/bin/bench watch
+2025-09-17 18:04:14,905 INFO /usr/local/bin/bench migrate step_eg
+2025-09-17 18:05:00,979 INFO /usr/local/bin/bench start
+2025-09-17 18:05:01,534 INFO /usr/local/bin/bench schedule
+2025-09-17 18:05:01,623 INFO /usr/local/bin/bench watch
+2025-09-17 18:05:01,640 INFO /usr/local/bin/bench worker
+2025-09-17 18:05:01,649 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 18:05:06,330 INFO /usr/local/bin/bench --site step_eg migrate
+2025-09-17 18:59:34,858 INFO /usr/local/bin/bench use step_eg
+2025-09-17 18:59:43,064 INFO /usr/local/bin/bench start
+2025-09-17 18:59:49,139 INFO /usr/local/bin/bench start
+2025-09-17 19:01:07,121 INFO /usr/local/bin/bench start
+2025-09-17 19:01:07,556 INFO /usr/local/bin/bench watch
+2025-09-17 19:01:07,570 INFO /usr/local/bin/bench worker
+2025-09-17 19:01:07,586 INFO /usr/local/bin/bench schedule
+2025-09-17 19:01:07,624 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 19:01:50,741 INFO /usr/local/bin/bench use step_eg
+2025-09-17 19:01:59,401 INFO /usr/local/bin/bench start
+2025-09-17 19:01:59,988 INFO /usr/local/bin/bench serve --port 8000
+2025-09-17 19:02:00,004 INFO /usr/local/bin/bench schedule
+2025-09-17 19:02:00,532 INFO /usr/local/bin/bench watch
+2025-09-17 19:02:00,564 INFO /usr/local/bin/bench worker
+2025-09-18 10:29:09,484 INFO /usr/local/bin/bench use step_eg
+2025-09-18 10:29:14,091 INFO /usr/local/bin/bench start
+2025-09-18 10:29:14,414 INFO /usr/local/bin/bench schedule
+2025-09-18 10:29:14,422 INFO /usr/local/bin/bench watch
+2025-09-18 10:29:14,447 INFO /usr/local/bin/bench serve --port 8000
+2025-09-18 10:29:14,484 INFO /usr/local/bin/bench worker
+2025-09-18 11:41:39,376 INFO /usr/local/bin/bench use step_eg
+2025-09-18 11:41:42,625 INFO /usr/local/bin/bench start
+2025-09-18 11:41:42,883 INFO /usr/local/bin/bench schedule
+2025-09-18 11:41:42,886 INFO /usr/local/bin/bench worker
+2025-09-18 11:41:42,892 INFO /usr/local/bin/bench watch
+2025-09-18 11:41:43,018 INFO /usr/local/bin/bench serve --port 8000
+2025-09-18 12:00:01,297 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-18 18:00:02,338 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-19 10:27:19,835 INFO /usr/local/bin/bench start
+2025-09-19 10:27:20,110 INFO /usr/local/bin/bench schedule
+2025-09-19 10:27:20,110 INFO /usr/local/bin/bench worker
+2025-09-19 10:27:20,115 INFO /usr/local/bin/bench serve --port 8000
+2025-09-19 10:27:20,160 INFO /usr/local/bin/bench watch
+2025-09-19 12:00:01,814 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-19 18:00:01,397 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-22 11:48:51,481 INFO /usr/local/bin/bench new-site Sanket
+2025-09-22 11:49:54,517 INFO /usr/local/bin/bench --site Sanket install-app erpnext
+2025-09-22 11:58:05,973 INFO /usr/local/bin/bench new-app local
+2025-09-22 11:58:05,986 LOG creating new app local
+2025-09-22 11:58:58,248 LOG Installing local
+2025-09-22 11:58:58,250 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/local 
+2025-09-22 11:58:59,639 DEBUG bench build --app local
+2025-09-22 11:58:59,723 INFO /usr/local/bin/bench build --app local
+2025-09-22 11:59:08,049 INFO /usr/local/bin/bench start
+2025-09-22 11:59:08,292 INFO /usr/local/bin/bench serve --port 8000
+2025-09-22 11:59:08,307 INFO /usr/local/bin/bench worker
+2025-09-22 11:59:08,324 INFO /usr/local/bin/bench watch
+2025-09-22 11:59:08,355 INFO /usr/local/bin/bench schedule
+2025-09-22 12:00:01,451 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-22 12:00:14,486 INFO /usr/local/bin/bench -site install-app local
+2025-09-22 12:00:21,789 INFO /usr/local/bin/bench --site Sanket install-app local
+2025-09-22 12:00:29,879 INFO /usr/local/bin/bench start
+2025-09-22 12:00:30,284 INFO /usr/local/bin/bench watch
+2025-09-22 12:00:30,316 INFO /usr/local/bin/bench schedule
+2025-09-22 12:00:30,406 INFO /usr/local/bin/bench serve --port 8000
+2025-09-22 12:00:30,532 INFO /usr/local/bin/bench worker
+2025-09-22 12:02:50,514 INFO /usr/local/bin/bench use sanket
+2025-09-22 12:02:56,332 INFO /usr/local/bin/bench use Sanket
+2025-09-22 12:03:03,128 INFO /usr/local/bin/bench start
+2025-09-22 12:03:03,352 INFO /usr/local/bin/bench worker
+2025-09-22 12:03:03,353 INFO /usr/local/bin/bench schedule
+2025-09-22 12:03:03,367 INFO /usr/local/bin/bench serve --port 8000
+2025-09-22 12:03:03,492 INFO /usr/local/bin/bench watch
+2025-09-22 12:29:43,993 INFO /usr/local/bin/bench start
+2025-09-22 12:29:44,249 INFO /usr/local/bin/bench worker
+2025-09-22 12:29:44,253 INFO /usr/local/bin/bench serve --port 8000
+2025-09-22 12:29:44,255 INFO /usr/local/bin/bench schedule
+2025-09-22 12:29:44,287 INFO /usr/local/bin/bench watch
+2025-09-22 17:30:36,874 INFO /usr/local/bin/bench use alteon_eg
+2025-09-22 17:30:42,097 INFO /usr/local/bin/bench start
+2025-09-22 17:30:42,429 INFO /usr/local/bin/bench watch
+2025-09-22 17:30:42,445 INFO /usr/local/bin/bench worker
+2025-09-22 17:30:42,459 INFO /usr/local/bin/bench serve --port 8000
+2025-09-22 17:30:42,508 INFO /usr/local/bin/bench schedule
+2025-09-22 18:00:02,545 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-22 18:15:30,174 INFO /usr/local/bin/bench --site alteon_eg migrate
+2025-09-22 18:15:37,416 INFO /usr/local/bin/bench start
+2025-09-22 18:15:37,706 INFO /usr/local/bin/bench serve --port 8000
+2025-09-22 18:15:37,712 INFO /usr/local/bin/bench watch
+2025-09-22 18:15:37,762 INFO /usr/local/bin/bench schedule
+2025-09-22 18:15:37,786 INFO /usr/local/bin/bench worker
+2025-09-22 18:17:26,653 INFO /usr/local/bin/bench use Sanket
+2025-09-22 18:17:33,190 INFO /usr/local/bin/bench start
+2025-09-22 18:17:33,429 INFO /usr/local/bin/bench watch
+2025-09-22 18:17:33,443 INFO /usr/local/bin/bench schedule
+2025-09-22 18:17:33,483 INFO /usr/local/bin/bench worker
+2025-09-22 18:17:33,503 INFO /usr/local/bin/bench serve --port 8000
+2025-09-22 18:43:14,749 INFO /usr/local/bin/bench use alteon_eg
+2025-09-22 18:43:18,455 INFO /usr/local/bin/bench start
+2025-09-22 18:43:19,039 INFO /usr/local/bin/bench serve --port 8000
+2025-09-22 18:43:19,071 INFO /usr/local/bin/bench watch
+2025-09-22 18:43:19,119 INFO /usr/local/bin/bench schedule
+2025-09-22 18:43:19,126 INFO /usr/local/bin/bench worker
+2025-09-23 10:17:24,150 INFO /usr/local/bin/bench use Sanket
+2025-09-23 10:17:30,967 INFO /usr/local/bin/bench start
+2025-09-23 10:17:31,296 INFO /usr/local/bin/bench watch
+2025-09-23 10:17:31,444 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 10:17:31,538 INFO /usr/local/bin/bench worker
+2025-09-23 10:17:31,563 INFO /usr/local/bin/bench schedule
+2025-09-23 11:45:53,186 INFO /usr/local/bin/bench use Sanket
+2025-09-23 11:45:56,905 INFO /usr/local/bin/bench start
+2025-09-23 11:45:57,160 INFO /usr/local/bin/bench watch
+2025-09-23 11:45:57,160 INFO /usr/local/bin/bench worker
+2025-09-23 11:45:57,185 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 11:45:57,199 INFO /usr/local/bin/bench schedule
+2025-09-23 11:55:19,225 INFO /usr/local/bin/bench start
+2025-09-23 11:55:19,461 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 11:55:19,469 INFO /usr/local/bin/bench schedule
+2025-09-23 11:55:19,501 INFO /usr/local/bin/bench worker
+2025-09-23 11:55:19,515 INFO /usr/local/bin/bench watch
+2025-09-23 11:57:23,584 INFO /usr/local/bin/bench start
+2025-09-23 11:57:23,809 INFO /usr/local/bin/bench watch
+2025-09-23 11:57:23,830 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 11:57:23,836 INFO /usr/local/bin/bench worker
+2025-09-23 11:57:23,946 INFO /usr/local/bin/bench schedule
+2025-09-23 12:00:01,801 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-23 12:01:30,468 INFO /usr/local/bin/bench start
+2025-09-23 12:01:30,718 INFO /usr/local/bin/bench schedule
+2025-09-23 12:01:30,734 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 12:01:30,734 INFO /usr/local/bin/bench watch
+2025-09-23 12:01:30,784 INFO /usr/local/bin/bench worker
+2025-09-23 12:07:24,061 INFO /usr/local/bin/bench start
+2025-09-23 12:07:24,270 INFO /usr/local/bin/bench schedule
+2025-09-23 12:07:24,289 INFO /usr/local/bin/bench worker
+2025-09-23 12:07:24,310 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 12:07:24,371 INFO /usr/local/bin/bench watch
+2025-09-23 12:14:33,176 INFO /usr/local/bin/bench mariadb
+2025-09-23 12:16:02,709 INFO /usr/local/bin/bench start
+2025-09-23 12:16:02,939 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 12:16:02,972 INFO /usr/local/bin/bench watch
+2025-09-23 12:16:03,030 INFO /usr/local/bin/bench schedule
+2025-09-23 12:16:03,064 INFO /usr/local/bin/bench worker
+2025-09-23 12:22:32,699 INFO /usr/local/bin/bench start
+2025-09-23 12:22:32,956 INFO /usr/local/bin/bench schedule
+2025-09-23 12:22:32,956 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 12:22:32,999 INFO /usr/local/bin/bench worker
+2025-09-23 12:22:33,039 INFO /usr/local/bin/bench watch
+2025-09-23 12:26:44,065 INFO /usr/local/bin/bench start
+2025-09-23 12:26:44,301 INFO /usr/local/bin/bench schedule
+2025-09-23 12:26:44,320 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 12:26:44,401 INFO /usr/local/bin/bench watch
+2025-09-23 12:26:44,407 INFO /usr/local/bin/bench worker
+2025-09-23 12:28:00,601 INFO /usr/local/bin/bench start
+2025-09-23 12:28:00,843 INFO /usr/local/bin/bench worker
+2025-09-23 12:28:00,865 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 12:28:00,878 INFO /usr/local/bin/bench schedule
+2025-09-23 12:28:00,918 INFO /usr/local/bin/bench watch
+2025-09-23 12:29:13,600 INFO /usr/local/bin/bench start
+2025-09-23 12:29:13,841 INFO /usr/local/bin/bench worker
+2025-09-23 12:29:13,856 INFO /usr/local/bin/bench watch
+2025-09-23 12:29:13,930 INFO /usr/local/bin/bench schedule
+2025-09-23 12:29:13,937 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 15:50:30,519 INFO /usr/local/bin/bench use alteon_eg
+2025-09-23 17:02:54,441 INFO /usr/local/bin/bench use alteon_eg
+2025-09-23 17:02:59,147 INFO /usr/local/bin/bench start
+2025-09-23 17:02:59,493 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 17:02:59,535 INFO /usr/local/bin/bench worker
+2025-09-23 17:02:59,560 INFO /usr/local/bin/bench watch
+2025-09-23 17:02:59,606 INFO /usr/local/bin/bench schedule
+2025-09-23 18:00:02,151 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-23 18:00:12,873 INFO /usr/local/bin/bench start
+2025-09-23 18:00:13,278 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 18:00:13,328 INFO /usr/local/bin/bench worker
+2025-09-23 18:00:13,352 INFO /usr/local/bin/bench watch
+2025-09-23 18:00:13,613 INFO /usr/local/bin/bench schedule
+2025-09-23 18:02:43,682 INFO /usr/local/bin/bench use alteon_eg
+2025-09-23 18:02:48,011 INFO /usr/local/bin/bench start
+2025-09-23 18:02:48,336 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 18:02:48,341 INFO /usr/local/bin/bench watch
+2025-09-23 18:02:48,376 INFO /usr/local/bin/bench worker
+2025-09-23 18:02:48,387 INFO /usr/local/bin/bench schedule
+2025-09-23 19:02:11,571 INFO /usr/local/bin/bench start
+2025-09-23 19:02:11,916 INFO /usr/local/bin/bench watch
+2025-09-23 19:02:11,920 INFO /usr/local/bin/bench schedule
+2025-09-23 19:02:11,943 INFO /usr/local/bin/bench serve --port 8000
+2025-09-23 19:02:11,966 INFO /usr/local/bin/bench worker
+2025-09-24 11:30:55,390 INFO /usr/local/bin/bench start
+2025-09-24 11:30:55,628 INFO /usr/local/bin/bench serve --port 8000
+2025-09-24 11:30:55,629 INFO /usr/local/bin/bench watch
+2025-09-24 11:30:55,632 INFO /usr/local/bin/bench worker
+2025-09-24 11:30:55,655 INFO /usr/local/bin/bench schedule
+2025-09-24 12:00:01,695 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-24 15:52:22,527 INFO /usr/local/bin/bench use Sanket
+2025-09-24 15:52:27,516 INFO /usr/local/bin/bench start
+2025-09-24 15:52:27,894 INFO /usr/local/bin/bench schedule
+2025-09-24 15:52:27,928 INFO /usr/local/bin/bench watch
+2025-09-24 15:52:27,931 INFO /usr/local/bin/bench serve --port 8000
+2025-09-24 15:52:27,953 INFO /usr/local/bin/bench worker
+2025-09-24 15:56:55,029 INFO /usr/local/bin/bench new-app ai_integration
+2025-09-24 15:56:55,036 LOG creating new app ai_integration
+2025-09-24 15:57:56,322 LOG Installing ai_integration
+2025-09-24 15:57:56,325 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/ai_integration 
+2025-09-24 15:57:58,201 DEBUG bench build --app ai_integration
+2025-09-24 15:57:58,317 INFO /usr/local/bin/bench build --app ai_integration
+2025-09-24 15:59:08,641 INFO /usr/local/bin/bench --site Sanket install-app ai_integration
+2025-09-24 16:00:56,464 INFO /usr/local/bin/bench start
+2025-09-24 16:00:56,777 INFO /usr/local/bin/bench serve --port 8000
+2025-09-24 16:00:56,782 INFO /usr/local/bin/bench schedule
+2025-09-24 16:00:56,856 INFO /usr/local/bin/bench watch
+2025-09-24 16:00:56,864 INFO /usr/local/bin/bench worker
+2025-09-24 18:00:02,034 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-25 11:19:04,837 INFO /usr/local/bin/bench new-site technavious_eg
+2025-09-25 11:25:40,662 INFO /usr/local/bin/bench --site technavious_eg install-app erpnext
+2025-09-25 11:28:13,107 INFO /usr/local/bin/bench --site technavious_eg install-app hrms
+2025-09-25 11:30:42,306 INFO /usr/local/bin/bench get-app insights --branch version-3
+2025-09-25 11:30:57,985 LOG Getting insights
+2025-09-25 11:30:57,985 DEBUG cd ./apps && git clone https://github.com/frappe/insights.git --branch version-3 --depth 1 --origin upstream
+2025-09-25 11:31:19,478 LOG Installing insights
+2025-09-25 11:31:19,478 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/insights 
+2025-09-25 11:31:59,299 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/insights && yarn install --check-files
+2025-09-25 11:32:38,602 DEBUG bench build --app insights
+2025-09-25 11:32:38,749 INFO /usr/local/bin/bench build --app insights
+2025-09-25 11:33:55,459 INFO /usr/local/bin/bench get-app https://github.com/Saurabh-Shelke/custom_salary.git
+2025-09-25 11:33:55,467 LOG Getting custom_salary
+2025-09-25 11:33:55,467 DEBUG cd ./apps && git clone https://github.com/Saurabh-Shelke/custom_salary.git  --depth 1 --origin upstream
+2025-09-25 11:34:11,833 LOG Installing salary
+2025-09-25 11:34:11,833 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/salary 
+2025-09-25 11:34:13,393 DEBUG bench build --app salary
+2025-09-25 11:34:13,478 INFO /usr/local/bin/bench build --app salary
+2025-09-25 11:34:23,527 INFO /usr/local/bin/bench get-app https://github.com/Sushant3833/custom_project.git
+2025-09-25 11:34:23,533 LOG Getting custom_project
+2025-09-25 11:34:23,533 DEBUG cd ./apps && git clone https://github.com/Sushant3833/custom_project.git  --depth 1 --origin upstream
+2025-09-25 11:34:39,674 LOG Installing project_custom_report
+2025-09-25 11:34:39,674 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/project_custom_report 
+2025-09-25 11:34:40,997 DEBUG bench build --app project_custom_report
+2025-09-25 11:34:41,084 INFO /usr/local/bin/bench build --app project_custom_report
+2025-09-25 11:34:57,458 INFO /usr/local/bin/bench get-app https://github.com/Saurabh-Shelke/spacex.git
+2025-09-25 11:34:57,464 LOG Getting spacex
+2025-09-25 11:34:57,464 DEBUG cd ./apps && git clone https://github.com/Saurabh-Shelke/spacex.git  --depth 1 --origin upstream
+2025-09-25 11:35:13,718 LOG Installing spacex
+2025-09-25 11:35:13,718 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/spacex 
+2025-09-25 11:35:16,644 DEBUG bench build --app spacex
+2025-09-25 11:35:16,788 INFO /usr/local/bin/bench build --app spacex
+2025-09-25 11:38:00,621 INFO /usr/local/bin/bench get-app https://github.com/Saurabh-Shelke/Vendor-Portal.git
+2025-09-25 11:38:00,627 LOG Getting Vendor-Portal
+2025-09-25 11:38:00,627 DEBUG cd ./apps && git clone https://github.com/Saurabh-Shelke/Vendor-Portal.git  --depth 1 --origin upstream
+2025-09-25 11:38:23,293 LOG Installing mac
+2025-09-25 11:38:23,294 DEBUG cd /home/sanket-dilip-katkade/EGBench/frappe-bench && /home/sanket-dilip-katkade/EGBench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sanket-dilip-katkade/EGBench/frappe-bench/apps/mac 
+2025-09-25 11:38:24,549 DEBUG bench build --app mac
+2025-09-25 11:38:24,635 INFO /usr/local/bin/bench build --app mac
+2025-09-25 11:39:02,045 INFO /usr/local/bin/bench --site technavious_eg install-app india_compliance
+2025-09-25 11:39:38,835 INFO /usr/local/bin/bench --site technavious_eg install-app insights
+2025-09-25 11:40:07,523 INFO /usr/local/bin/bench --site technavious_eg install-app mac
+2025-09-25 11:40:30,351 INFO /usr/local/bin/bench --site technavious_eg install-app project_custom_report
+2025-09-25 11:40:39,734 INFO /usr/local/bin/bench --site technavious_eg install-app salary
+2025-09-25 11:40:47,049 INFO /usr/local/bin/bench --site technavious_eg install-app spacex
+2025-09-25 11:41:08,233 INFO /usr/local/bin/bench --site technavious_eg list-apps
+2025-09-25 11:49:43,880 INFO /usr/local/bin/bench --site restore /home/sanket-dilip-katkade/Downloads/20250925_094527-technavious_frappe_cloud-database.sql.gz
+2025-09-25 11:50:18,786 INFO /usr/local/bin/bench --site technavious_eg restore /home/sanket-dilip-katkade/Downloads/20250925_094527-technavious_frappe_cloud-database.sql.gz
+2025-09-25 11:51:26,879 INFO /usr/local/bin/bench use technavious_eg
+2025-09-25 11:51:31,464 INFO /usr/local/bin/bench start
+2025-09-25 11:51:31,709 INFO /usr/local/bin/bench serve --port 8000
+2025-09-25 11:51:31,732 INFO /usr/local/bin/bench watch
+2025-09-25 11:51:31,746 INFO /usr/local/bin/bench worker
+2025-09-25 11:51:31,803 INFO /usr/local/bin/bench schedule
+2025-09-25 12:00:01,601 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-25 12:36:08,672 INFO /usr/local/bin/bench --site technavious_eg list-apps
+2025-09-25 14:07:13,716 INFO /usr/local/bin/bench use technavious_eg
+2025-09-25 14:07:17,466 INFO /usr/local/bin/bench start
+2025-09-25 14:07:17,832 INFO /usr/local/bin/bench serve --port 8000
+2025-09-25 14:07:17,834 INFO /usr/local/bin/bench worker
+2025-09-25 14:07:17,842 INFO /usr/local/bin/bench schedule
+2025-09-25 14:07:17,949 INFO /usr/local/bin/bench watch
+2025-09-25 14:20:58,859 INFO /usr/local/bin/bench start
+2025-09-25 14:20:59,190 INFO /usr/local/bin/bench serve --port 8000
+2025-09-25 14:20:59,213 INFO /usr/local/bin/bench schedule
+2025-09-25 14:20:59,214 INFO /usr/local/bin/bench worker
+2025-09-25 14:20:59,371 INFO /usr/local/bin/bench watch
+2025-09-25 14:41:44,538 INFO /usr/local/bin/bench start
+2025-09-25 14:41:44,862 INFO /usr/local/bin/bench serve --port 8000
+2025-09-25 14:41:44,892 INFO /usr/local/bin/bench worker
+2025-09-25 14:41:44,895 INFO /usr/local/bin/bench watch
+2025-09-25 14:41:44,986 INFO /usr/local/bin/bench schedule
+2025-09-25 15:02:01,480 INFO /usr/local/bin/bench start
+2025-09-25 15:02:01,812 INFO /usr/local/bin/bench worker
+2025-09-25 15:02:01,818 INFO /usr/local/bin/bench serve --port 8000
+2025-09-25 15:02:01,868 INFO /usr/local/bin/bench watch
+2025-09-25 15:02:02,000 INFO /usr/local/bin/bench schedule
+2025-09-25 15:05:55,981 INFO /usr/local/bin/bench start
+2025-09-25 15:05:56,323 INFO /usr/local/bin/bench serve --port 8000
+2025-09-25 15:05:56,337 INFO /usr/local/bin/bench schedule
+2025-09-25 15:05:56,364 INFO /usr/local/bin/bench watch
+2025-09-25 15:05:56,421 INFO /usr/local/bin/bench worker
+2025-09-25 15:06:10,522 INFO /usr/local/bin/bench migrate
+2025-09-25 18:00:02,253 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-26 12:00:01,677 INFO /usr/local/bin/bench --verbose --site all backup
+2025-09-26 12:12:27,971 INFO /usr/local/bin/bench use technavious_eg
+2025-09-26 12:21:04,688 INFO /usr/local/bin/bench new-app DealStatus
+2025-09-26 12:21:04,694 LOG creating new app dealstatus
+2025-09-26 12:42:53,397 WARNING /usr/local/bin/bench new-app DealStatus executed with exit code 1
+2025-09-26 12:43:40,049 INFO /usr/local/bin/bench start
+2025-09-26 12:43:40,419 INFO /usr/local/bin/bench schedule
+2025-09-26 12:43:40,450 INFO /usr/local/bin/bench serve --port 8000
+2025-09-26 12:43:40,453 INFO /usr/local/bin/bench watch
+2025-09-26 12:43:40,499 INFO /usr/local/bin/bench worker

@@ -1,0 +1,11 @@
+_HiStOrY_V2_
+SELECT\040name,\040party_name,\040transaction_date\040FROM\040`tabQuotation`\040ORDER\040BY\040modified\040DESC\040LIMIT\04010;
+curl\040-s\040-X\040POST\040"http://127.0.0.1:8000/api/resource/Item"\040\134
+\040\040-H\040"Authorization:\040token\04007f69479a2d00a5:f3de3b49c14887b"\040\134
+\040\040-H\040"Content-Type:\040application/json"\040\134
+\040\040-d\040'{
+\040\040\040\040"item_code":\040"API_TEST_ITEM",
+\040\040\040\040"item_name":\040"API\040Test\040Item",
+\040\040\040\040"stock_uom":\040"Nos"
+\040\040}'\040|\040jq\040||\040true
+\134q

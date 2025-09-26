@@ -1,0 +1,191 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.79.0"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "c86e95e52422d395c8a4c76a83f5cbf3a2f86c11",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "15.77.0"
+    },
+    "hrms": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "498f7ca1059d9a71dcbeafd4cbbaa157594c475f",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "16.0.0-dev"
+    },
+    "india_compliance": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "edc039accb08ffa6ba7bd248749ba4027a3a34a9",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "15.21.0"
+    },
+    "exacuer_sync_biometrics": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "26a12ca998396354a0725908b5d44a6380f826c9",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    },
+    "tech": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "3c082f8d21cf0ee24a5f0001f82541ddc0ab83ad",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "0.0.1"
+    },
+    "aagam_customization": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "247ccc4132c7a3b3f71fea7c156690228f5bcfe7",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 7,
+        "version": "0.0.1"
+    },
+    "daybook": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "4236777832756d03ea012650f58188abb8f0b1b0",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 8,
+        "version": "0.0.1"
+    },
+    "account_repo": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "c0a796fbe909572b71c5add96963ef677e33dad9",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 9,
+        "version": "0.0.1"
+    },
+    "blg_report": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "b67a9711191b87dc01bc7c3e487233479291b365",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 10,
+        "version": "0.0.1"
+    },
+    "indiamart_erpnext_integration": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "8d3a78cf5456b47b50735a8d7571eb1a7d4e7d1c",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 11,
+        "version": "0.0.2"
+    },
+    "stepperly": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "ae6239ff9d1624582077c81a399c32b6a830913e",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 12,
+        "version": "0.0.1"
+    },
+    "local": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "fc7377affc2fc1702bd6c49ca07ac01af936bec2",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 13,
+        "version": "0.0.1"
+    },
+    "ai_integration": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "0b4988ed0bdb6735e8b3c216d1bd903c5f0b4256",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 14,
+        "version": "0.0.1"
+    },
+    "insights": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "443a7e52841d2e36973952c283a8aef10b5ced13",
+            "branch": "version-3"
+        },
+        "required": [],
+        "idx": 15,
+        "version": "3.2.9"
+    },
+    "salary": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "fa6dc171799ee2aa1a08aac2518bde9418ee42dd",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 16,
+        "version": "0.0.1"
+    },
+    "project_custom_report": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "c50e27feaae8a747186a050a0ef42e6aac76be76",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 17,
+        "version": "0.0.1"
+    },
+    "spacex": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "0b390148622b1b7f5e0b9473434bf3084361fbdb",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 18,
+        "version": "0.0.1"
+    },
+    "mac": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "e0152a6e345fb653f6dde65e2f7778e99c5bb2c9",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 19,
+        "version": "0.0.1"
+    }
+}

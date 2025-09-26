@@ -1,0 +1,9 @@
+2025-09-25 14:53:31,202 ERROR frappe New Exception collected in error log
+Site: technavious_eg
+Form Dict: {'report_name': 'Custom Salary', 'filters': '{"from_date":"2025-08-01","to_date":"2025-09-25","currency":"INR","company":"Technavious Solutions Private Limited","docstatus":"Submitted"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2025-09-26 12:48:38,795 ERROR frappe New Exception collected in error log
+Site: technavious_eg
+Form Dict: {'report_name': 'Deal Status Report', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-09-26 14:26:18,685 ERROR frappe New Exception collected in error log
+Site: technavious_eg
+Form Dict: {'report_name': 'Deal Status Report', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}

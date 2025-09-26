@@ -1,0 +1,139 @@
+2025-09-17 16:23:28,160 INFO ipython === bench console session ===
+2025-09-17 16:23:28,161 INFO ipython import frappe
+frappe.db.set_value("DocField", {"parent":"Quotation","fieldname":"price_list"}, "reqd", 0)
+frappe.db.commit()
+frappe.clear_cache(doctype="Quotation")
+print("done")
+2025-09-17 16:23:28,161 INFO ipython === session end ===
+2025-09-17 16:24:40,343 INFO ipython === bench console session ===
+2025-09-17 16:24:40,344 INFO ipython import frappe
+
+# 1) show current DocField values (before change)
+print("Before:", frappe.get_value(
+    "DocField",
+    {"parent": "Quotation", "fieldname": "price_list"},
+    ["name","reqd","hidden","depends_on","mandatory_depends_on"]
+))
+
+# 2) make sure it's not hidden, not required, clear wrong Depends On and set Mandatory Depends On
+frappe.db.set_value(
+    "DocField",
+    {"parent": "Quotation", "fieldname": "price_list"},
+    "hidden", 0
+)
+frappe.db.set_value(
+    "DocField",
+    {"parent": "Quotation", "fieldname": "price_list"},
+    "reqd", 0
+)
+# clear any visibility dependency that might hide it
+frappe.db.set_value(
+    "DocField",
+    {"parent": "Quotation", "fieldname": "price_list"},
+    "depends_on", ""
+)
+# put eval:0 into mandatory_depends_on so it is never required
+frappe.db.set_value(
+    "DocField",
+    {"parent": "Quotation", "fieldname": "price_list"},
+    "mandatory_depends_on", "eval:0"
+)
+
+frappe.db.commit()
+frappe.clear_cache(doctype="Quotation")
+
+# 3) show DocField values after change
+print("After:", frappe.get_value(
+    "DocField",
+    {"parent": "Quotation", "fieldname": "price_list"},
+    ["name","reqd","hidden","depends_on","mandatory_depends_on"]
+))
+2025-09-17 16:24:40,344 INFO ipython === session end ===
+2025-09-17 16:28:07,991 INFO ipython === bench console session ===
+2025-09-17 16:28:07,991 INFO ipython import frappe
+# 1) list all docfields on Quotation
+print("All DocFields for Quotation (fieldname, label, reqd, hidden, depends_on, mandatory_depends_on):")
+rows = frappe.get_all("DocField",
+    filters={"parent": "Quotation"},
+    fields=["fieldname","label","reqd","hidden","depends_on","mandatory_depends_on"],
+    order_by="idx")
+for r in rows:
+    print(r)
+
+# 2) try direct SQL as fallback to find any stray records
+print("\nSQL search for tabDocField rows with 'price_list' in fieldname or label:")
+sql_rows = frappe.db.sql("""
+    SELECT name, parent, fieldname, label, reqd, hidden, depends_on, mandatory_depends_on
+    FROM `tabDocField`
+    WHERE parent = %s AND (fieldname = %s OR fieldname LIKE %s OR label LIKE %s)
+""", ("Quotation", "price_list", "%price_list%", "%Price List%"), as_dict=True)
+for r in sql_rows:
+    print(r)
+
+# 3) If we found at least one matching row above, display first match and update it:
+if sql_rows:
+    df = sql_rows[0]
+    print("\nFirst matching DocField found (will print current values and then update):")
+    print(df)
+    # Update safe fields:
+    frappe.db.set_value("DocField", df['name'], "hidden", 0)
+    frappe.db.set_value("DocField", df['name'], "reqd", 0)
+    frappe.db.set_value("DocField", df['name'], "depends_on", "")
+    frappe.db.set_value("DocField", df['name'], "mandatory_depends_on", "eval:0")
+    frappe.db.commit()
+    frappe.clear_cache(doctype="Quotation")
+    print("Updated DocField:", df['name'])
+    print("After update:", frappe.get_value("DocField", df['name'], ["fieldname","label","reqd","hidden","depends_on","mandatory_depends_on"]))
+else:
+    print("\nNo DocField for Quotation.price_list found by SQL search.")
+2025-09-17 16:28:07,991 INFO ipython import frappe
+
+def update_field(fieldname, reqd, hidden, depends_on, mandatory_depends_on):
+    df_name = frappe.get_value("DocField", {"parent":"Quotation","fieldname": fieldname})
+    print(f"Field {fieldname!r} found in DocField:", df_name)
+    if not df_name:
+        return
+    # write values (use empty string for None)
+    frappe.db.set_value("DocField", df_name, "reqd", reqd)
+    frappe.db.set_value("DocField", df_name, "hidden", hidden)
+    frappe.db.set_value("DocField", df_name, "depends_on", depends_on or "")
+    # If you want to clear mandatory_depends_on, set to empty string
+    frappe.db.set_value("DocField", df_name, "mandatory_depends_on", mandatory_depends_on or "")
+
+# 1) Restore plc_conversion_rate back to required (was changed accidentally)
+update_field("plc_conversion_rate", 1, 0, None, None)
+
+# 2) Make the actual Price List field (selling_price_list) visible and non-mandatory
+update_field("selling_price_list", 0, 0, None, "eval:0")
+
+frappe.db.commit()
+frappe.clear_cache(doctype="Quotation")
+
+# 3) Print final states to verify
+for fn in ("plc_conversion_rate","selling_price_list"):
+    print(fn, "->", frappe.get_value("DocField", {"parent":"Quotation","fieldname":fn}, ["name","reqd","hidden","depends_on","mandatory_depends_on"]))
+2025-09-17 16:28:07,991 INFO ipython import frappe
+# set selling_price_list required again
+frappe.db.set_value("DocField", {"parent":"Quotation","fieldname":"selling_price_list"}, "reqd", 1)
+frappe.db.set_value("DocField", {"parent":"Quotation","fieldname":"selling_price_list"}, "mandatory_depends_on", "")
+frappe.db.commit()
+frappe.clear_cache(doctype="Quotation")
+print("restored selling_price_list to reqd=1")
+2025-09-17 16:28:07,992 INFO ipython === session end ===
+2025-09-17 16:57:49,577 INFO ipython === bench console session ===
+2025-09-17 16:57:49,578 INFO ipython import frappe
+# get the class used for Quotation
+cls = frappe.get_meta("Quotation").get_controller()
+print("controller class:", cls)
+print("controller module:", cls.__class__.__module__)
+print("controller class name:", cls.__class__.__name__)
+2025-09-17 16:57:49,578 INFO ipython # run inside: bench --site step_eg console
+import frappe
+# create a new in-memory Quotation doc (does not save)
+doc = frappe.new_doc("Quotation")
+print("Doc class:", doc.__class__)
+print("module:", getattr(doc.__class__, "__module__", None))
+print("class name:", getattr(doc.__class__, "__name__", None))
+# also print the MRO (to see parent classes)
+print("MRO:", [c.__module__ + "." + c.__name__ for c in doc.__class__.mro()])
+2025-09-17 16:57:49,578 INFO ipython === session end ===

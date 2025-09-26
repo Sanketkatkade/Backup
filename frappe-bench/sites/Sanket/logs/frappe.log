@@ -1,0 +1,24 @@
+2025-09-22 12:09:26,821 ERROR frappe New Exception collected in error log
+Site: Sanket
+Form Dict: {'quotation_to': 'Customer', 'party_name': 'Learning Site Test Customer', 'transaction_date': '2025-09-22', 'valid_till': '2025-10-22', 'items': [{'doctype': 'Quotation Item', 'item_code': 'Test Item', 'qty': 1, 'rate': 100}], 'cmd': 'learning.create_quotation'}
+2025-09-22 12:16:47,722 ERROR frappe New Exception collected in error log
+Site: Sanket
+Form Dict: {'quotation_to': 'Customer', 'party_name': 'Learning Site Test Customer', 'transaction_date': '2025-09-22', 'valid_till': '2025-10-22', 'items': [{'doctype': 'Quotation Item', 'item_code': 'Test Item', 'qty': 1, 'rate': 100}], 'cmd': 'learning.create_quotation'}
+2025-09-22 12:17:43,509 ERROR frappe New Exception collected in error log
+Site: Sanket
+Form Dict: {'quotation_to': 'Customer', 'party_name': 'Learning Site Test Customer', 'transaction_date': '2025-09-22', 'valid_till': '2025-10-22', 'items': [{'doctype': 'Quotation Item', 'item_code': 'Test Item', 'qty': 1, 'rate': 100}], 'cmd': 'learning.create_quotation'}
+2025-09-22 12:20:29,750 ERROR frappe New Exception collected in error log
+Site: Sanket
+Form Dict: {'quotation_to': 'Customer', 'party_name': 'Learning Site Test Customer', 'transaction_date': '2025-09-22', 'valid_till': '2025-10-22', 'items': [{'doctype': 'Quotation Item', 'item_code': 'Test Item', 'qty': 1, 'rate': 100}], 'cmd': 'learning.create_quotation'}
+2025-09-22 12:22:43,756 ERROR frappe New Exception collected in error log
+Site: Sanket
+Form Dict: {'quotation_to': 'Customer', 'party_name': 'Learning Site Test Customer', 'transaction_date': '2025-09-22', 'valid_till': '2025-10-22', 'items': [{'doctype': 'Quotation Item', 'item_code': 'Test Item', 'qty': 1, 'rate': 100}], 'cmd': 'learning.create_quotation'}
+2025-09-24 16:40:21,308 ERROR frappe New Exception collected in error log
+Site: Sanket
+Form Dict: {'cmd': 'frappe.desk.form.load.getdoc'}
+2025-09-24 17:28:52,433 ERROR frappe New Exception collected in error log
+Site: Sanket
+Form Dict: {'name': 'visiting-card-integration', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-09-24 17:30:37,766 ERROR frappe Error while inserting deferred Error Log record: Error Log 9fpdkcj4g3: 'Title' ([Errno 2] No such file or directory: '/home/sanket-dilip-katkade/EGBench/frappe-bench/apps/ai_integration/ai_integration/ai_integration/page/visiting_card_integration') will get truncated, as max characters allowed is 140
+Site: Sanket
+Form Dict: {}

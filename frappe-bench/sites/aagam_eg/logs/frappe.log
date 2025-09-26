@@ -1,0 +1,279 @@
+2025-09-03 15:13:29,203 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeomc7vfh', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:13:29,203 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeomc7vfh', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:13:29,204 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeoek69ss', 'qty': '3600', 'rate': '600', 'cmd': 'update_quotation_items'}
+2025-09-03 15:13:29,204 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeoek69ss', 'qty': '3600', 'rate': '600', 'cmd': 'update_quotation_items'}
+2025-09-03 15:13:29,213 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeobdfsv0', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:13:29,213 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeobdfsv0', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:13:29,214 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeo82182i', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:13:29,214 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeo82182i', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:14:21,154 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeoek69ss', 'qty': '3600', 'rate': '600', 'cmd': 'update_quotation_items'}
+2025-09-03 15:14:21,154 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeoek69ss', 'qty': '3600', 'rate': '600', 'cmd': 'update_quotation_items'}
+2025-09-03 15:14:21,155 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeobdfsv0', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:14:21,155 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeobdfsv0', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:14:21,157 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeo82182i', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:14:21,157 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeo82182i', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:14:21,159 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeomc7vfh', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:14:21,159 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeomc7vfh', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-03 15:14:48,668 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-03 15:14:48,668 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-03 15:15:40,602 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-03 15:15:40,602 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-03 15:16:16,261 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-03 15:16:16,261 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-03 15:17:06,457 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-03 15:17:06,457 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-03 15:17:49,908 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-03 15:17:49,908 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:02:41,034 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"},{"idx":5,"__islocal":true,"item_code":"HERRY SLIM-हेर्री-White-40","qty":3000,"rate":500,"name":"row 5"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:03:01,702 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3000,"stock_uom":"Nos","rate":700,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:05:31,370 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":700,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:06:24,366 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":700,"docname":"1oeoek69ss","idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeomc7vfh","idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeobdfsv0","idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"docname":"1oeo82182i","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:15:37,665 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":700,"idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:47:50,407 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:48:49,850 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":800,"idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:49:24,145 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":600,"idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:49:58,652 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":800,"idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:50:46,705 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":400,"idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:51:25,881 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":400,"idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:52:05,195 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":200,"idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:54:34,533 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":200,"idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:55:14,044 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":300,"idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:56:02,968 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":200,"idx":1,"name":"row 1"},{"item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 11:59:36,412 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"docname":"1oeoek69ss","item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":100,"idx":1,"name":"row 1"},{"docname":"1oeomc7vfh","item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"docname":"1oeobdfsv0","item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"docname":"1oeo82182i","item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 12:00:39,836 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"docname":"1oeoek69ss","item_code":"HERO-हीरो-Blue-38","qty":3600,"stock_uom":"Nos","rate":500,"idx":1,"name":"row 1"},{"docname":"1oeomc7vfh","item_code":"HERO-हीरो-Blue-40","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":2,"name":"row 2"},{"docname":"1oeobdfsv0","item_code":"HERO-हीरो-Blue-42","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":3,"name":"row 3"},{"docname":"1oeo82182i","item_code":"HERO-हीरो-Blue-44","qty":3500,"stock_uom":"Nos","rate":515.53,"idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 12:01:43,763 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'quotation': 'ACS-25-00078', 'items': '[{"docname":"1oeoek69ss","item_code":"HERO-हीरो-Blue-38","qty":3600,"rate":800,"stock_uom":"Nos","idx":1,"name":"row 1"},{"docname":"1oeomc7vfh","item_code":"HERO-हीरो-Blue-40","qty":3500,"rate":515.53,"stock_uom":"Nos","idx":2,"name":"row 2"},{"docname":"1oeobdfsv0","item_code":"HERO-हीरो-Blue-42","qty":3500,"rate":515.53,"stock_uom":"Nos","idx":3,"name":"row 3"},{"docname":"1oeo82182i","item_code":"HERO-हीरो-Blue-44","qty":3500,"rate":515.53,"stock_uom":"Nos","idx":4,"name":"row 4"}]', 'cmd': 'update_quotation_items'}
+2025-09-05 12:05:54,979 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeoek69ss', 'qty': '3600', 'rate': '700', 'cmd': 'update_quotation_items'}
+2025-09-05 12:05:54,983 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeobdfsv0', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:05:54,984 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeo82182i', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:05:54,999 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeomc7vfh', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:06:48,956 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeobdfsv0', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:06:48,957 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeoek69ss', 'qty': '3600', 'rate': '500', 'cmd': 'update_quotation_items'}
+2025-09-05 12:06:48,960 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeo82182i', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:06:48,970 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeomc7vfh', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:09:05,687 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeomc7vfh', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:09:05,695 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeoek69ss', 'qty': '3600', 'rate': '300', 'cmd': 'update_quotation_items'}
+2025-09-05 12:09:05,699 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeo82182i', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:09:05,700 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeobdfsv0', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:10:24,689 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeoek69ss', 'qty': '3600', 'rate': '200', 'cmd': 'update_quotation_items'}
+2025-09-05 12:10:24,700 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeomc7vfh', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:10:24,716 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeo82182i', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:10:24,723 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeobdfsv0', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:10:58,205 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeoek69ss', 'qty': '3600', 'rate': '300', 'cmd': 'update_quotation_items'}
+2025-09-05 12:10:58,232 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeomc7vfh', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:10:58,239 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeobdfsv0', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:10:58,247 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeo82182i', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:15:04,455 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:15:04,460 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:15:04,540 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:15:04,563 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:16:41,835 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:16:41,835 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:16:41,924 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:16:41,930 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:16:57,610 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:16:57,612 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:16:57,702 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:16:57,702 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:19:11,221 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:19:11,237 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:19:11,316 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:19:11,316 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:32:37,546 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:32:37,564 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:32:37,572 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:32:37,576 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'doctype': 'Quotation Item', 'cmd': 'frappe.client.delete'}
+2025-09-05 12:54:11,844 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeo82182i', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:54:11,847 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeobdfsv0', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:54:11,848 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeomc7vfh', 'qty': '3500', 'rate': '515.53', 'cmd': 'update_quotation_items'}
+2025-09-05 12:54:11,849 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeoek69ss', 'qty': '3600', 'rate': '500', 'cmd': 'update_quotation_items'}
+2025-09-05 13:02:15,017 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeobdfsv0', 'qty': '3500', 'rate': '515.53', 'action': 'update', 'cmd': 'update_quotation_items'}
+2025-09-05 13:02:15,025 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeomc7vfh', 'qty': '3500', 'rate': '515.53', 'action': 'update', 'cmd': 'update_quotation_items'}
+2025-09-05 13:02:15,029 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeoek69ss', 'qty': '3600', 'rate': '500', 'action': 'update', 'cmd': 'update_quotation_items'}
+2025-09-05 13:02:15,030 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'parent_docname': 'ACS-25-00078', 'item_code': 'Hari-हरि-Grey', 'qty': '3500', 'rate': '500', 'action': 'add', 'cmd': 'update_quotation_items'}
+2025-09-05 13:02:15,043 ERROR frappe New Exception collected in error log
+Site: aagam_eg
+Form Dict: {'docname': '1oeo82182i', 'qty': '3500', 'rate': '515.53', 'action': 'update', 'cmd': 'update_quotation_items'}
